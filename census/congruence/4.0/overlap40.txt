@@ -1,0 +1,6 @@
+OVERLAP40 section=a class=SAME count=47
+OVERLAP40 section=a class=SAME_PLUS_UELL count=4
+OVERLAP40 section=b1 class=SAME count=25
+OVERLAP40 comparisons=76 cells=34 identical=76 differing=0 verdict=OK
+WSJOIN40 section=a ws_cells_joined=9 rows_joined=56 D_equal=56 A1_eq_hilbert=56 ws_blocks_unjoined=0 (census_dataset_v2.py STOPs on any D mismatch)
+WSJOIN40 section=b1 ws_cells_joined=283 rows_joined=741 D_equal=741 A1_eq_hilbert=741 ws_blocks_unjoined=0 (census_dataset_v2.py STOPs on any D mismatch)

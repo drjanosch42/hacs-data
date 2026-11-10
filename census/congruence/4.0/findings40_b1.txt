@@ -1,0 +1,54 @@
+# findings -- census edition 3 (slot-15 WP-15): computed (CMPD) statements over edition 3's 169885 rows; 169885 of them at the
+# 21 new primes 17 ... 103. Coverage is PARTIAL at 17 ... 59 (coverage.tsv / missing.txt): a statement 'at ell' means 'on the rows present'.
+
+E3-1. Loewy length >= 3 (loewy_A >= 3) anywhere?  15 row(s).
+    (416,139) id 2  theta^2(f138)  loewy_A=4 hilbert=[1,1,1,1] module_loewy=[2,2,2,2]
+    (554,139) id 2  theta^2(f138)  loewy_A=4 hilbert=[1,1,1,1] module_loewy=[2,2,2,2]
+    (556,139) id 4  theta^3(f138)  loewy_A=4 hilbert=[1,1,1,1] module_loewy=[2,2,2,2]
+    (692,139) id 2  theta^2(f138)  loewy_A=4 hilbert=[1,1,1,1] module_loewy=[2,2,2,2]
+    (694,139) id 4  theta^3(f138)  loewy_A=4 hilbert=[1,1,1,1] module_loewy=[2,2,2,2]
+    (696,139) id 9  theta^4(f138)  loewy_A=4 hilbert=[1,1,1,1] module_loewy=[2,2,2,2]
+    (830,139) id 2  theta^2(f138)  loewy_A=4 hilbert=[1,1,1,1] module_loewy=[2,2,2,2]
+    (832,139) id 4  theta^3(f138)  loewy_A=4 hilbert=[1,1,1,1] module_loewy=[2,2,2,2]
+    (834,139) id 9  theta^4(f138)  loewy_A=4 hilbert=[1,1,1,1] module_loewy=[2,2,2,2]
+    (836,139) id 10  theta^5(f138)  loewy_A=4 hilbert=[1,1,1,1] module_loewy=[2,2,2,2]
+    (968,139) id 4  theta^2(f138)  loewy_A=4 hilbert=[1,1,1,1] module_loewy=[2,2,2,2]
+    (970,139) id 5  theta^3(f138)  loewy_A=4 hilbert=[1,1,1,1] module_loewy=[2,2,2,2]
+    (972,139) id 9  theta^4(f138)  loewy_A=4 hilbert=[1,1,1,1] module_loewy=[2,2,2,2]
+    (974,139) id 10  theta^5(f138)  loewy_A=4 hilbert=[1,1,1,1] module_loewy=[2,2,2,2]
+    (976,139) id 11  theta^6(f138)  loewy_A=4 hilbert=[1,1,1,1] module_loewy=[2,2,2,2]
+
+E3-2. [E] pr:latticesplit, restricted form (R): a loewy_A >= 3 ideal that is NOT Kummer-Frobenius = a violation.
+    R_violations=15; Kummer-Frobenius H1 ideals present: 0 (kummer_frobenius.tsv).
+    R_VIOLATION (416,139) id 2 theta^2(f138) loewy_A=4 module_loewy=[2,2,2,2]
+    R_VIOLATION (554,139) id 2 theta^2(f138) loewy_A=4 module_loewy=[2,2,2,2]
+    R_VIOLATION (556,139) id 4 theta^3(f138) loewy_A=4 module_loewy=[2,2,2,2]
+    R_VIOLATION (692,139) id 2 theta^2(f138) loewy_A=4 module_loewy=[2,2,2,2]
+    R_VIOLATION (694,139) id 4 theta^3(f138) loewy_A=4 module_loewy=[2,2,2,2]
+    R_VIOLATION (696,139) id 9 theta^4(f138) loewy_A=4 module_loewy=[2,2,2,2]
+    R_VIOLATION (830,139) id 2 theta^2(f138) loewy_A=4 module_loewy=[2,2,2,2]
+    R_VIOLATION (832,139) id 4 theta^3(f138) loewy_A=4 module_loewy=[2,2,2,2]
+    R_VIOLATION (834,139) id 9 theta^4(f138) loewy_A=4 module_loewy=[2,2,2,2]
+    R_VIOLATION (836,139) id 10 theta^5(f138) loewy_A=4 module_loewy=[2,2,2,2]
+    R_VIOLATION (968,139) id 4 theta^2(f138) loewy_A=4 module_loewy=[2,2,2,2]
+    R_VIOLATION (970,139) id 5 theta^3(f138) loewy_A=4 module_loewy=[2,2,2,2]
+    R_VIOLATION (972,139) id 9 theta^4(f138) loewy_A=4 module_loewy=[2,2,2,2]
+    R_VIOLATION (974,139) id 10 theta^5(f138) loewy_A=4 module_loewy=[2,2,2,2]
+    R_VIOLATION (976,139) id 11 theta^6(f138) loewy_A=4 module_loewy=[2,2,2,2]
+
+E3-3. kummer_exact_agree (the pipeline's Kummer predictor vs the independent irregularity): not_applicable=76698 true=93187.
+
+E3-4. F9 (v_ell(B_k/k) >= 1, the eis(0, k-1) ideal): cells per ell, and how many of those ideals are non-reduced:
+    ell 131    8 ideals, non-reduced   8, v=2: -
+    ell 149    6 ideals, non-reduced   6, v=2: -
+    ell 157   13 ideals, non-reduced  13, v=2: -
+
+E3-5. hidden_congruence ([M1]; dim A_1 < dim A_K/ell on a stable WS block): edition-2 primes ; new primes false=738 not_applicable=76698 not_computed=92446 not_stable:torsion_block=3.
+
+E3-6. saturated / mult_one (Q15; arm (T) of HeckeFormsHeckeAlgebraValidation, binary >= 974d915), on the rows computed:
+    not_computed: 169885 rows (reduced rows; residue degree > 1; new-prime rows at n > the arm-(T) bound, see README).
+
+E3-7. C-F9 (m_A^2 = 0) on the cheap new-prime non-reduced rows (cf9.tsv):  over 0 row(s).
+
+E3-8. finality: 0 row(s) not final (every new-prime record: hecke_ext/v5, every ideal final, WP-C15 / WP-C18).
+    certificates at the new primes: cyclic=9709 sturm(B')=160176.

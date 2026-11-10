@@ -1,0 +1,23 @@
+# census edition 3 (slot-15 WP-15): the C1-grid cells NOT in edition 3, per ell (even n; ranges inclusive).
+# They are the cluster runs that never ran or were killed: C1a RA1-RA2 (ell = 37 ... 59) and RS1-RS3 (ell = 17 ... 31)
+# of the Noctua 2 relaunch kit. Edition 3.1 adds them, add-only.
+MISSING ell=107 cells=0 n=-
+MISSING ell=109 cells=0 n=-
+MISSING ell=113 cells=0 n=-
+MISSING ell=127 cells=0 n=-
+MISSING ell=131 cells=0 n=-
+MISSING ell=137 cells=0 n=-
+MISSING ell=139 cells=0 n=-
+MISSING ell=149 cells=0 n=-
+MISSING ell=151 cells=0 n=-
+MISSING ell=157 cells=0 n=-
+MISSING ell=163 cells=0 n=-
+MISSING ell=167 cells=0 n=-
+MISSING ell=173 cells=0 n=-
+MISSING ell=179 cells=0 n=-
+MISSING ell=181 cells=0 n=-
+MISSING ell=191 cells=0 n=-
+MISSING ell=193 cells=0 n=-
+MISSING ell=197 cells=0 n=-
+MISSING ell=199 cells=0 n=-
+MISSING_TOTAL cells=0 of 9500 C1 cells

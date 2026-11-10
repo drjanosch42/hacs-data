@@ -1,0 +1,2 @@
+C1K_GATE stage=a cells=4050 records=4050 keys=2 wrong_key=0 u_ell_off=580 refused_or_fallback_or_error_logs=0 gpu_requeued=0 verdict=OK
+C1K_GATE stage=b1 cells=9500 records=9500 keys=1 wrong_key=0 u_ell_off=0 refused_or_fallback_or_error_logs=0 gpu_requeued=1 verdict=OK

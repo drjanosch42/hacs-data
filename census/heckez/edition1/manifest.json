@@ -1,0 +1,213 @@
+{
+ "schema": "integral_hecke_dataset/v1",
+ "tool": "mk_hecke_dataset.py v1.1 (HZ-DS fix round 1)",
+ "edition": "hecke_ed1",
+ "record_schema": "integral_hecke_structure/v1",
+ "settings_fingerprint": "0x8ffc29730c4f9672",
+ "provenance": {
+  "record_binaries": [
+   {
+    "pass": 1,
+    "sha256": "1d4f5a29e98c71f4713b5b025478cf5475f7704ecd54270fce1263810fcf24e3",
+    "source_pin": "30c47739",
+    "records": 198,
+    "path": "<scratch>/s25/run/build/cohomology_app"
+   },
+   {
+    "pass": 2,
+    "sha256": "54ab8480772f2ab9fa485f6731264b0f2a01d5769608d55efb8ee3b4b2b6a34d",
+    "source_pin": "15de418f",
+    "records": 28,
+    "path": "<scratch>/s25/run2/build/cohomology_app"
+   }
+  ],
+  "record_binaries_derived_from": "the run's logs/driver.log (shipped as provenance_driver_log.txt) + state.json / backup_*/state.json; per record: cells.tsv / rows.tsv column pass",
+  "reaccept_binary_sha256": "54ab8480772f2ab9fa485f6731264b0f2a01d5769608d55efb8ee3b4b2b6a34d",
+  "reaccept": "verify.json (shipped as provenance_verify.json): every record re-accepted by this binary with resume = true, i.e. re-hashed, not recomputed",
+  "descent_binary_sha256": "54ab8480772f2ab9fa485f6731264b0f2a01d5769608d55efb8ee3b4b2b6a34d",
+  "kit": "docs/cluster/local/heckez/mk_heckez_run.py",
+  "schema_tag": "heckez-schema-v1-frozen (6b1b440f) + amendment A1",
+  "cells145_sha256": "5070077d2ec78bff659029f4d8c7b0a0ed33ab41288c95d2cdb9473f9000ddad",
+  "defer_pass2_sha256": "8b548280bcd65e6bbd9721701db6784496d1239558b912d820d9127afdea26f8",
+  "plan_manifest_sha256": "5074b4db27484c6de18f3b0578755e157f5a798014e2284d7050d591ac7f231c",
+  "ed1_cells_sha256": "905d708aab7d1b3c39f78f9bdd7142d4e94381f7c025d439a590a042da21a469",
+  "ed1_torsion_sha256": "78de87576f4a180afbd56146231f5a99393317476c77969e7bfda0652d2b273c",
+  "lean_manifest_sha256": "54a248b63b130f455b379c7c0cce2f161451f0d9c59eb22392d6c9f8e21da6d5",
+  "census40_files": {
+   "rows40.tsv.gz": "d521e56cad7469d2a4c9ad33d67fc8b9f45ed9bef79f9acb78aa43c00e28bd33",
+   "rows40_b1.tsv.gz": "231b9780c9c981313a094710ef0013e451d37d7091e51e15335cfaf535964621",
+   "rows40_b2.tsv.gz": "39168d478eddabf4f91f0935c10315066b3f9a29562595d70acedd3b4389a5b8"
+  }
+ },
+ "coverage": {
+  "planned_cells": 145,
+  "planned_records": 231,
+  "cells": 141,
+  "records": 226,
+  "final": 122,
+  "pending": 104,
+  "refused": 0,
+  "golden_eligible": 122,
+  "golden15_present": 15,
+  "pins_checked": 20,
+  "level1_records": 56,
+  "levelN_records": 170
+ },
+ "not_computed": [
+  {
+   "N": 1,
+   "n": 484,
+   "algebra": "full",
+   "id": "hz_N1_n484_full_s8ffc29730c4f9672",
+   "kind": "deferred_before_run",
+   "reason": "pass 2 (2026-11-06): still out of reach after HZ-RAT-PERF (predicted word primes 117216; fix-round estimate 160-10^4 h)"
+  },
+  {
+   "N": 1,
+   "n": 700,
+   "algebra": "full",
+   "id": "hz_N1_n700_full_s8ffc29730c4f9672",
+   "kind": "deferred_before_run",
+   "reason": "pass 2 (2026-11-06): still out of reach after HZ-RAT-PERF (predicted word primes 353270; fix-round estimate 160-10^4 h)"
+  },
+  {
+   "N": 1,
+   "n": 702,
+   "algebra": "full",
+   "id": "hz_N1_n702_full_s8ffc29730c4f9672",
+   "kind": "deferred_before_run",
+   "reason": "pass 2 (2026-11-06): still out of reach after HZ-RAT-PERF (predicted word primes 354276; fix-round estimate 160-10^4 h)"
+  },
+  {
+   "N": 2089,
+   "n": 0,
+   "algebra": "anemic",
+   "id": "hz_N2089_n0_anemic_s8ffc29730c4f9672",
+   "kind": "planned_not_finished",
+   "reason": "stopped on the owner's instruction 2026-11-06 21:26 UTC after 5704 s (SIGTERM; predicted 2288151 s = ~635 h against the 12 h cell cap; single-threaded anemic HZ-LOC route); not a code failure; re-run after the anemic route is parallelised or a longer cap is approved (HZRUN_pass2_report.md)"
+  },
+  {
+   "N": 2089,
+   "n": 0,
+   "algebra": "full",
+   "id": "hz_N2089_n0_full_s8ffc29730c4f9672",
+   "kind": "planned_not_finished",
+   "reason": "stopped on the owner's instruction 2026-11-06 21:26 UTC after 5704 s (SIGTERM; predicted 2288151 s = ~635 h against the 12 h cell cap; single-threaded anemic HZ-LOC route); not a code failure; re-run after the anemic route is parallelised or a longer cap is approved (HZRUN_pass2_report.md)"
+  }
+ ],
+ "checks": {
+  "records_rehashed": 226,
+  "ed1_joined": 156,
+  "descent_regenerated": 35,
+  "pending_status_consistent": 226,
+  "join_modl": {
+   "census_extra(torsion_q1)": 60,
+   "equal": 140,
+   "not_decomposed": 228,
+   "not_in_census40": 206
+  },
+  "big_values": 7,
+  "records_by_pass": {
+   "1": 198,
+   "2": 28
+  }
+ },
+ "counts": {
+  "rows": 226,
+  "components": 262,
+  "badset": 1390,
+  "maxideals": 4272,
+  "pairs": 185,
+  "congruence": 537,
+  "torsion_points": 736,
+  "hc": 226,
+  "certs": 226,
+  "join_modl": 634,
+  "not_computed": 5,
+  "cells": 226,
+  "descent_cells": 35,
+  "big": 7
+ },
+ "files": {
+  "README.md": {
+   "bytes": 6056,
+   "sha256": "d0b3dd100d458c92ac5833ee1f3cb79bbbb5ea69acad44c1ab9bf99b6ae852c3"
+  },
+  "badset.tsv": {
+   "bytes": 164948,
+   "sha256": "b04f7654f426c019a8286fde688d3227780437eebc5e70417ad1bbeadf6390ae"
+  },
+  "big.tsv.gz": {
+   "bytes": 20754,
+   "sha256": "fe7e275cda03aa77e6899015acddebf20216847fae669c4d3d7d7a4f8e8a4f0b"
+  },
+  "cells.tsv": {
+   "bytes": 76561,
+   "sha256": "40a56a7080020713daeaf4ffeb088adf4306cdf3be3e1d0eb02e55065e9cae2b"
+  },
+  "certs.tsv": {
+   "bytes": 124189,
+   "sha256": "41e83143e31ea78019714b35e08e503334ee9b659a82d40a41e12b39bbb40579"
+  },
+  "components.tsv": {
+   "bytes": 54262,
+   "sha256": "4c132c4052d603ea588092c7824cdccc969a08f702c9d5019fb14ee277c77e90"
+  },
+  "congruence.tsv": {
+   "bytes": 35229,
+   "sha256": "e40ce001ace25db6796ff88279078bc45146a857fb45e5f8d73c6da572f1473b"
+  },
+  "descent_bundle.tar.gz": {
+   "bytes": 68048,
+   "sha256": "5cb921528e13f1ebfac762aaa1e5ae97ab2c5ee164731c63cd3bfc8f82436d8b"
+  },
+  "descent_cells.tsv": {
+   "bytes": 6692,
+   "sha256": "8fd9c85fc6ff2b7d9f9dd8fbad6753a23a4c1dcf095e3e464b55b53f2dcf42de"
+  },
+  "hc.tsv": {
+   "bytes": 7610,
+   "sha256": "e3a8afb8445f79b9313a97a9f4f4bf2612cc15e3c8c2732c78c87e89dce4c1de"
+  },
+  "join_modl.tsv": {
+   "bytes": 60921,
+   "sha256": "85c350022d991a3f0c9aee8742ebffcb52842dafedb0b40441130318140e1613"
+  },
+  "maxideals.tsv": {
+   "bytes": 384190,
+   "sha256": "6cfe8c3db3775d07a44d5a84c788fd45f76445b70351d94cf6a65d476273b398"
+  },
+  "not_computed.tsv": {
+   "bytes": 1488,
+   "sha256": "f3ae46f5f39e8fa3aca346b50f60a901d1aec8b12c41c2d2c3c10038fa88cbcb"
+  },
+  "pairs.tsv": {
+   "bytes": 9108,
+   "sha256": "66d04c96697d807b1f01af41299075722c844cc3253a5b07bc7ea8d12a7c291e"
+  },
+  "provenance_defer_pass2.tsv": {
+   "bytes": 389,
+   "sha256": "8b548280bcd65e6bbd9721701db6784496d1239558b912d820d9127afdea26f8"
+  },
+  "provenance_driver_log.txt": {
+   "bytes": 50625,
+   "sha256": "0dfe07984aeee2966885859b25386c947e4e18faf820bc637ac86445ae988af8"
+  },
+  "provenance_verify.json": {
+   "bytes": 1754,
+   "sha256": "76f63d7c8c93eb1cba929657768cde6f3062e6f1f6db7d4a220f6c9a9336f73a"
+  },
+  "records_bundle.tar.gz": {
+   "bytes": 1572337,
+   "sha256": "eccb03fbdc86989bce64ff176cd2c76039833ba5180e7564f2c04b5f241e262c"
+  },
+  "rows.tsv": {
+   "bytes": 141500,
+   "sha256": "ad18790637b0f74cb0d527b0562f4379ff181f9e81d1150108fc777b2a163408"
+  },
+  "torsion_points.tsv": {
+   "bytes": 81073,
+   "sha256": "23efc3689bb55bb33429d01597fac90ff1105c6063154b54627e71ccbe9169fe"
+  }
+ }
+}

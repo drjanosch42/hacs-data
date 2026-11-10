@@ -1,0 +1,280 @@
+# findings -- census edition 3 (slot-15 WP-15): computed (CMPD) statements over edition 3's 279093 rows; 261355 of them at the
+# 21 new primes 17 ... 103. Coverage is PARTIAL at 17 ... 59 (coverage.tsv / missing.txt): a statement 'at ell' means 'on the rows present'.
+
+E3-1. Loewy length >= 3 (loewy_A >= 3) anywhere?  657 row(s).
+    (654,37) id 8  eis(1,6)  loewy_A=4 hilbert=[1,1,1,1] module_loewy=[3,2,2,1]
+    (656,37) id 15  eis(2,7)  loewy_A=4 hilbert=[1,1,1,1] module_loewy=[3,2,2,1]
+    (658,37) id 29  eis(3,8)  loewy_A=4 hilbert=[1,1,1,1] module_loewy=[3,2,2,1]
+    (660,37) id 25  eis(4,9)  loewy_A=4 hilbert=[1,1,1,1] module_loewy=[3,2,2,1]
+    (662,37) id 15  eis(5,10)  loewy_A=4 hilbert=[1,1,1,1] module_loewy=[3,2,2,1]
+    (664,37) id 22  eis(6,11)  loewy_A=4 hilbert=[1,1,1,1] module_loewy=[3,2,2,1]
+    (666,37) id 20  eis(7,12)  loewy_A=4 hilbert=[1,1,1,1] module_loewy=[3,2,2,1]
+    (668,37) id 18  eis(8,13)  loewy_A=4 hilbert=[1,1,1,1] module_loewy=[3,2,2,1]
+    (670,37) id 10  eis(9,14)  loewy_A=4 hilbert=[1,1,1,1] module_loewy=[3,2,2,1]
+    (672,37) id 22  eis(10,15)  loewy_A=4 hilbert=[1,1,1,1] module_loewy=[3,2,2,1]
+    (674,37) id 11  eis(11,16)  loewy_A=4 hilbert=[1,1,1,1] module_loewy=[3,2,2,1]
+    (676,37) id 29  eis(12,17)  loewy_A=4 hilbert=[1,1,1,1] module_loewy=[3,2,2,1]
+    (690,37) id 9  eis(1,6)  loewy_A=4 hilbert=[1,1,1,1] module_loewy=[3,2,2,1]
+    (692,37) id 15  eis(2,7)  loewy_A=4 hilbert=[1,1,1,1] module_loewy=[3,2,2,1]
+    (694,37) id 32  eis(3,8)  loewy_A=4 hilbert=[1,1,1,1] module_loewy=[3,2,2,1]
+    (696,37) id 26  eis(4,9)  loewy_A=4 hilbert=[1,1,1,1] module_loewy=[3,2,2,1]
+    (698,37) id 15  eis(5,10)  loewy_A=4 hilbert=[1,1,1,1] module_loewy=[3,2,2,1]
+    (700,37) id 25  eis(6,11)  loewy_A=4 hilbert=[1,1,1,1] module_loewy=[3,2,2,1]
+    (298,23) id 1  dihedral(Q(sqrt(-23)))  loewy_A=3 hilbert=[1,1,1] module_loewy=[4,2,2]
+    (320,23) id 1  dihedral(Q(sqrt(-23)))  loewy_A=3 hilbert=[1,1,1] module_loewy=[4,2,2]
+    (322,23) id 2  dihedral(Q(sqrt(-23)))  loewy_A=3 hilbert=[1,1,1] module_loewy=[4,2,2]
+    (342,23) id 1  dihedral(Q(sqrt(-23)))  loewy_A=3 hilbert=[1,1,1] module_loewy=[4,2,2]
+    (344,23) id 2  dihedral(Q(sqrt(-23)))  loewy_A=3 hilbert=[1,1,1] module_loewy=[4,2,2]
+    (346,23) id 9  dihedral(Q(sqrt(-23)))  loewy_A=3 hilbert=[1,1,1] module_loewy=[4,2,2]
+    (364,23) id 2  dihedral(Q(sqrt(-23)))  loewy_A=3 hilbert=[1,1,1] module_loewy=[4,2,2]
+    (366,23) id 2  dihedral(Q(sqrt(-23)))  loewy_A=3 hilbert=[1,1,1] module_loewy=[4,2,2]
+    (368,23) id 9  dihedral(Q(sqrt(-23)))  loewy_A=3 hilbert=[1,1,1] module_loewy=[4,2,2]
+    (370,23) id 13  dihedral(Q(sqrt(-23)))  loewy_A=3 hilbert=[1,1,1] module_loewy=[4,2,2]
+    (386,23) id 2  dihedral(Q(sqrt(-23)))  loewy_A=3 hilbert=[1,1,1] module_loewy=[4,2,2]
+    (388,23) id 3  dihedral(Q(sqrt(-23)))  loewy_A=3 hilbert=[1,1,1] module_loewy=[4,2,2]
+    (390,23) id 9  dihedral(Q(sqrt(-23)))  loewy_A=3 hilbert=[1,1,1] module_loewy=[4,2,2]
+    (392,23) id 13  dihedral(Q(sqrt(-23)))  loewy_A=3 hilbert=[1,1,1] module_loewy=[4,2,2]
+    (394,23) id 5  dihedral(Q(sqrt(-23)))  loewy_A=3 hilbert=[1,1,1] module_loewy=[4,2,2]
+    (408,23) id 3  dihedral(Q(sqrt(-23)))  loewy_A=3 hilbert=[1,1,1] module_loewy=[4,2,2]
+    (410,23) id 4  dihedral(Q(sqrt(-23)))  loewy_A=3 hilbert=[1,1,1] module_loewy=[4,2,2]
+    (412,23) id 10  dihedral(Q(sqrt(-23)))  loewy_A=3 hilbert=[1,1,1] module_loewy=[4,2,2]
+    (414,23) id 13  dihedral(Q(sqrt(-23)))  loewy_A=3 hilbert=[1,1,1] module_loewy=[4,2,2]
+    (416,23) id 5  dihedral(Q(sqrt(-23)))  loewy_A=3 hilbert=[1,1,1] module_loewy=[4,2,2]
+    (418,23) id 17  dihedral(Q(sqrt(-23)))  loewy_A=3 hilbert=[1,1,1] module_loewy=[4,2,2]
+    (430,23) id 2  dihedral(Q(sqrt(-23)))  loewy_A=3 hilbert=[1,1,1] module_loewy=[4,2,2]
+
+E3-2. [E] pr:latticesplit, restricted form (R): a loewy_A >= 3 ideal that is NOT Kummer-Frobenius = a violation.
+    R_violations=424; Kummer-Frobenius H1 ideals present: 293 (kummer_frobenius.tsv).
+    R_VIOLATION (298,23) id 1 dihedral(Q(sqrt(-23))) loewy_A=3 module_loewy=[4,2,2]
+    R_VIOLATION (320,23) id 1 dihedral(Q(sqrt(-23))) loewy_A=3 module_loewy=[4,2,2]
+    R_VIOLATION (322,23) id 2 dihedral(Q(sqrt(-23))) loewy_A=3 module_loewy=[4,2,2]
+    R_VIOLATION (342,23) id 1 dihedral(Q(sqrt(-23))) loewy_A=3 module_loewy=[4,2,2]
+    R_VIOLATION (344,23) id 2 dihedral(Q(sqrt(-23))) loewy_A=3 module_loewy=[4,2,2]
+    R_VIOLATION (346,23) id 9 dihedral(Q(sqrt(-23))) loewy_A=3 module_loewy=[4,2,2]
+    R_VIOLATION (364,23) id 2 dihedral(Q(sqrt(-23))) loewy_A=3 module_loewy=[4,2,2]
+    R_VIOLATION (366,23) id 2 dihedral(Q(sqrt(-23))) loewy_A=3 module_loewy=[4,2,2]
+    R_VIOLATION (368,23) id 9 dihedral(Q(sqrt(-23))) loewy_A=3 module_loewy=[4,2,2]
+    R_VIOLATION (370,23) id 13 dihedral(Q(sqrt(-23))) loewy_A=3 module_loewy=[4,2,2]
+    R_VIOLATION (386,23) id 2 dihedral(Q(sqrt(-23))) loewy_A=3 module_loewy=[4,2,2]
+    R_VIOLATION (388,23) id 3 dihedral(Q(sqrt(-23))) loewy_A=3 module_loewy=[4,2,2]
+    R_VIOLATION (390,23) id 9 dihedral(Q(sqrt(-23))) loewy_A=3 module_loewy=[4,2,2]
+    R_VIOLATION (392,23) id 13 dihedral(Q(sqrt(-23))) loewy_A=3 module_loewy=[4,2,2]
+    R_VIOLATION (394,23) id 5 dihedral(Q(sqrt(-23))) loewy_A=3 module_loewy=[4,2,2]
+    R_VIOLATION (408,23) id 3 dihedral(Q(sqrt(-23))) loewy_A=3 module_loewy=[4,2,2]
+    R_VIOLATION (410,23) id 4 dihedral(Q(sqrt(-23))) loewy_A=3 module_loewy=[4,2,2]
+    R_VIOLATION (412,23) id 10 dihedral(Q(sqrt(-23))) loewy_A=3 module_loewy=[4,2,2]
+    R_VIOLATION (414,23) id 13 dihedral(Q(sqrt(-23))) loewy_A=3 module_loewy=[4,2,2]
+    R_VIOLATION (416,23) id 5 dihedral(Q(sqrt(-23))) loewy_A=3 module_loewy=[4,2,2]
+
+E3-3. kummer_exact_agree (the pipeline's Kummer predictor vs the independent irregularity): not_applicable=72960 true=206133.
+
+E3-4. F9 (v_ell(B_k/k) >= 1, the eis(0, k-1) ideal): cells per ell, and how many of those ideals are non-reduced:
+    ell 37    27 ideals, non-reduced  27, v=2: (282,37)
+    ell 59    17 ideals, non-reduced  17, v=2: (912,59)
+    ell 67    15 ideals, non-reduced  15, v=2: -
+    ell 101   10 ideals, non-reduced  10, v=2: -
+    ell 103   10 ideals, non-reduced  10, v=2: (226,103)
+    ell 547    3 ideals, non-reduced   3, v=2: -
+    ell 691    2 ideals, non-reduced   2, v=2: -
+
+E3-5. hidden_congruence ([M1]; dim A_1 < dim A_K/ell on a stable WS block): edition-2 primes false=532 not_applicable=4548 not_computed=11606 not_stable:not_stable_at_KTOP=5 not_stable:torsion_block=349 true=698; new primes false=13964 not_applicable=68412 not_computed=178692 not_stable:torsion_block=102 true=185.
+    hidden at a new prime: (220,17) id 8 theta^1(Delta)
+    hidden at a new prime: (236,17) id 9 theta^1(Delta)
+    hidden at a new prime: (238,17) id 10 theta^2(Delta)
+    hidden at a new prime: (252,17) id 12 theta^1(Delta)
+    hidden at a new prime: (254,17) id 10 theta^2(Delta)
+    hidden at a new prime: (256,17) id 7 theta^3(Delta)
+    hidden at a new prime: (268,17) id 12 theta^1(Delta)
+    hidden at a new prime: (270,17) id 13 theta^2(Delta)
+    hidden at a new prime: (272,17) id 8 theta^3(Delta)
+    hidden at a new prime: (274,17) id 11 theta^4(Delta)
+    hidden at a new prime: (284,17) id 12 theta^1(Delta)
+    hidden at a new prime: (286,17) id 13 theta^2(Delta)
+    hidden at a new prime: (288,17) id 8 theta^3(Delta)
+    hidden at a new prime: (288,17) id 10 theta^1(f16)
+    hidden at a new prime: (290,17) id 3 theta^2(f16)
+    hidden at a new prime: (290,17) id 12 theta^4(Delta)
+    hidden at a new prime: (292,17) id 4 theta^5(Delta)
+    hidden at a new prime: (292,17) id 13 eis(1,4)
+    hidden at a new prime: (294,17) id 1 eis(1,6)
+    hidden at a new prime: (294,17) id 3 theta^6(Delta)
+    hidden at a new prime: (296,17) id 12 eis(1,8)
+    hidden at a new prime: (298,17) id 10 eis(1,10)
+    hidden at a new prime: (300,17) id 12 theta^1(Delta)
+    hidden at a new prime: (300,17) id 14 eis(1,12)
+    hidden at a new prime: (302,17) id 1 eis(1,14)
+    hidden at a new prime: (302,17) id 13 theta^2(Delta)
+    hidden at a new prime: (304,17) id 8 theta^3(Delta)
+    hidden at a new prime: (304,17) id 10 theta^1(f16)
+    hidden at a new prime: (306,17) id 3 theta^2(f16)
+    hidden at a new prime: (306,17) id 12 theta^4(Delta)
+    hidden at a new prime: (306,17) id 14 eis(1,2)
+    hidden at a new prime: (308,17) id 5 theta^5(Delta)
+    hidden at a new prime: (308,17) id 10 theta^3(f16)
+    hidden at a new prime: (308,17) id 14 eis(1,4)
+    hidden at a new prime: (310,17) id 1 eis(1,6)
+    hidden at a new prime: (310,17) id 3 theta^6(Delta)
+    hidden at a new prime: (310,17) id 13 eis(2,5)
+    hidden at a new prime: (312,17) id 3 eis(2,7)
+    hidden at a new prime: (312,17) id 7 theta^7(Delta)
+    hidden at a new prime: (312,17) id 12 eis(1,8)
+    hidden at a new prime: (314,17) id 10 eis(1,10)
+    hidden at a new prime: (314,17) id 11 eis(2,9)
+    hidden at a new prime: (316,17) id 3 eis(2,11)
+    hidden at a new prime: (316,17) id 12 theta^1(Delta)
+    hidden at a new prime: (316,17) id 14 eis(1,12)
+    hidden at a new prime: (318,17) id 1 eis(1,14)
+    hidden at a new prime: (318,17) id 13 theta^2(Delta)
+    hidden at a new prime: (318,17) id 15 eis(2,13)
+    hidden at a new prime: (320,17) id 5 eis(2,15)
+    hidden at a new prime: (320,17) id 8 theta^3(Delta)
+    hidden at a new prime: (320,17) id 10 theta^1(f16)
+    hidden at a new prime: (322,17) id 1 theta^1(f18)
+    hidden at a new prime: (322,17) id 2 theta^2(f16)
+    hidden at a new prime: (322,17) id 11 theta^4(Delta)
+    hidden at a new prime: (322,17) id 13 eis(1,2)
+    hidden at a new prime: (324,17) id 5 theta^5(Delta)
+    hidden at a new prime: (324,17) id 10 theta^3(f16)
+    hidden at a new prime: (324,17) id 14 eis(1,4)
+    hidden at a new prime: (326,17) id 2 eis(1,6)
+    hidden at a new prime: (326,17) id 4 theta^6(Delta)
+    hidden at a new prime: (326,17) id 12 theta^4(f16)
+    hidden at a new prime: (326,17) id 14 eis(2,5)
+    hidden at a new prime: (328,17) id 3 eis(2,7)
+    hidden at a new prime: (328,17) id 7 theta^7(Delta)
+    hidden at a new prime: (328,17) id 9 eis(3,6)
+    hidden at a new prime: (328,17) id 12 eis(1,8)
+    hidden at a new prime: (330,17) id 4 theta^8(Delta)
+    hidden at a new prime: (330,17) id 5 eis(3,8)
+    hidden at a new prime: (330,17) id 10 eis(1,10)
+    hidden at a new prime: (330,17) id 11 eis(2,9)
+    hidden at a new prime: (332,17) id 3 eis(2,11)
+    hidden at a new prime: (332,17) id 4 eis(3,10)
+    hidden at a new prime: (332,17) id 12 theta^1(Delta)
+    hidden at a new prime: (332,17) id 14 eis(1,12)
+    hidden at a new prime: (334,17) id 1 eis(1,14)
+    hidden at a new prime: (334,17) id 10 eis(3,12)
+    hidden at a new prime: (334,17) id 13 theta^2(Delta)
+    hidden at a new prime: (334,17) id 15 eis(2,13)
+    hidden at a new prime: (336,17) id 5 eis(2,15)
+    hidden at a new prime: (336,17) id 8 theta^3(Delta)
+    hidden at a new prime: (336,17) id 10 theta^1(f16)
+    hidden at a new prime: (336,17) id 11 eis(3,14)
+    hidden at a new prime: (338,17) id 1 theta^1(f18)
+    hidden at a new prime: (338,17) id 2 theta^2(f16)
+    hidden at a new prime: (338,17) id 6 eis(0,339)
+    hidden at a new prime: (338,17) id 11 theta^4(Delta)
+    hidden at a new prime: (338,17) id 13 eis(1,2)
+    hidden at a new prime: (340,17) id 4 theta^5(Delta)
+    hidden at a new prime: (340,17) id 6 theta^2(f18)
+    hidden at a new prime: (340,17) id 8 eis(2,3)
+    hidden at a new prime: (340,17) id 9 theta^3(f16)
+    hidden at a new prime: (340,17) id 13 eis(1,4)
+    hidden at a new prime: (342,17) id 2 eis(1,6)
+    hidden at a new prime: (342,17) id 4 theta^6(Delta)
+    hidden at a new prime: (342,17) id 12 theta^4(f16)
+    hidden at a new prime: (342,17) id 14 eis(2,5)
+    hidden at a new prime: (344,17) id 4 eis(2,7)
+    hidden at a new prime: (344,17) id 6 theta^5(f16)
+    hidden at a new prime: (344,17) id 8 theta^7(Delta)
+    hidden at a new prime: (344,17) id 10 eis(3,6)
+    hidden at a new prime: (344,17) id 13 eis(1,8)
+    hidden at a new prime: (346,17) id 4 theta^8(Delta)
+    hidden at a new prime: (346,17) id 5 eis(3,8)
+    hidden at a new prime: (346,17) id 9 eis(4,7)
+    hidden at a new prime: (346,17) id 10 eis(1,10)
+    hidden at a new prime: (346,17) id 11 eis(2,9)
+    hidden at a new prime: (348,17) id 3 eis(2,11)
+    hidden at a new prime: (348,17) id 4 eis(3,10)
+    hidden at a new prime: (348,17) id 11 theta^9(Delta)
+    hidden at a new prime: (348,17) id 12 theta^1(Delta)
+    hidden at a new prime: (348,17) id 13 eis(4,9)
+    hidden at a new prime: (348,17) id 14 eis(1,12)
+    hidden at a new prime: (350,17) id 1 eis(1,14)
+    hidden at a new prime: (350,17) id 10 eis(3,12)
+    hidden at a new prime: (350,17) id 11 eis(4,11)
+    hidden at a new prime: (350,17) id 13 theta^2(Delta)
+    hidden at a new prime: (350,17) id 15 eis(2,13)
+    hidden at a new prime: (352,17) id 4 eis(4,13)
+    hidden at a new prime: (352,17) id 5 eis(2,15)
+    hidden at a new prime: (352,17) id 8 theta^3(Delta)
+    hidden at a new prime: (352,17) id 10 theta^1(f16)
+    hidden at a new prime: (352,17) id 11 eis(3,14)
+    hidden at a new prime: (354,17) id 1 theta^1(f18)
+    hidden at a new prime: (354,17) id 2 theta^2(f16)
+    hidden at a new prime: (354,17) id 6 eis(0,355)
+    hidden at a new prime: (354,17) id 10 eis(4,15)
+    hidden at a new prime: (354,17) id 11 theta^4(Delta)
+    hidden at a new prime: (354,17) id 13 eis(1,2)
+    hidden at a new prime: (356,17) id 4 theta^5(Delta)
+    hidden at a new prime: (356,17) id 6 theta^2(f18)
+    hidden at a new prime: (356,17) id 8 eis(2,3)
+    hidden at a new prime: (356,17) id 9 theta^3(f16)
+    hidden at a new prime: (356,17) id 13 eis(1,4)
+    hidden at a new prime: (358,17) id 1 eis(1,6)
+    hidden at a new prime: (358,17) id 3 theta^6(Delta)
+    hidden at a new prime: (358,17) id 8 theta^3(f18)
+    hidden at a new prime: (358,17) id 10 eis(3,4)
+    hidden at a new prime: (358,17) id 11 theta^4(f16)
+    hidden at a new prime: (358,17) id 13 eis(2,5)
+    hidden at a new prime: (360,17) id 4 eis(2,7)
+    hidden at a new prime: (360,17) id 6 theta^5(f16)
+    hidden at a new prime: (360,17) id 8 theta^7(Delta)
+    hidden at a new prime: (360,17) id 10 eis(3,6)
+    hidden at a new prime: (360,17) id 13 eis(1,8)
+    hidden at a new prime: (246,19) id 6 theta^1(Delta)
+    hidden at a new prime: (264,19) id 6 theta^1(Delta)
+    hidden at a new prime: (266,19) id 2 theta^2(Delta)
+    hidden at a new prime: (282,19) id 8 theta^1(Delta)
+    hidden at a new prime: (284,19) id 2 theta^2(Delta)
+    hidden at a new prime: (286,19) id 2 theta^3(Delta)
+    hidden at a new prime: (300,19) id 10 theta^1(Delta)
+    hidden at a new prime: (302,19) id 2 theta^2(Delta)
+    hidden at a new prime: (304,19) id 2 theta^3(Delta)
+    hidden at a new prime: (306,19) id 4 theta^4(Delta)
+    hidden at a new prime: (318,19) id 10 theta^1(Delta)
+    hidden at a new prime: (320,19) id 3 theta^2(Delta)
+    hidden at a new prime: (322,19) id 2 theta^3(Delta)
+    hidden at a new prime: (322,19) id 6 theta^1(f16)
+    hidden at a new prime: (324,19) id 4 theta^4(Delta)
+    hidden at a new prime: (326,19) id 8 theta^5(Delta)
+    hidden at a new prime: (336,19) id 10 theta^1(Delta)
+    hidden at a new prime: (338,19) id 3 theta^2(Delta)
+    hidden at a new prime: (340,19) id 3 theta^3(Delta)
+    hidden at a new prime: (340,19) id 7 theta^1(f16)
+    hidden at a new prime: (342,19) id 5 theta^4(Delta)
+    hidden at a new prime: (342,19) id 12 theta^2(f16)
+    hidden at a new prime: (344,19) id 8 theta^5(Delta)
+    hidden at a new prime: (346,19) id 14 theta^6(Delta)
+    hidden at a new prime: (354,19) id 10 theta^1(Delta)
+    hidden at a new prime: (356,19) id 3 theta^2(Delta)
+    hidden at a new prime: (358,19) id 3 theta^3(Delta)
+    hidden at a new prime: (358,19) id 7 theta^1(f16)
+    hidden at a new prime: (360,19) id 5 theta^4(Delta)
+    hidden at a new prime: (360,19) id 12 theta^2(f16)
+    hidden at a new prime: (360,19) id 13 theta^1(f18)
+    hidden at a new prime: (276,23) id 1 dihedral(Q(sqrt(-23)))
+    hidden at a new prime: (298,23) id 1 dihedral(Q(sqrt(-23)))
+    hidden at a new prime: (300,23) id 2 dihedral(Q(sqrt(-23)))
+    hidden at a new prime: (320,23) id 1 dihedral(Q(sqrt(-23)))
+    hidden at a new prime: (322,23) id 2 dihedral(Q(sqrt(-23)))
+    hidden at a new prime: (324,23) id 9 dihedral(Q(sqrt(-23)))
+    hidden at a new prime: (342,23) id 1 dihedral(Q(sqrt(-23)))
+    hidden at a new prime: (344,23) id 2 dihedral(Q(sqrt(-23)))
+    hidden at a new prime: (346,23) id 9 dihedral(Q(sqrt(-23)))
+    hidden at a new prime: (348,23) id 13 dihedral(Q(sqrt(-23)))
+
+E3-6. saturated / mult_one (Q15; arm (T) of HeckeFormsHeckeAlgebraValidation, binary >= 974d915), on the rows computed:
+    ed2  saturated=false    mult_one=no       2
+    ed2  saturated=false    mult_one=unknown  343
+    ed2  saturated=not_applicable mult_one=unknown  1
+    ed2  saturated=true     mult_one=unknown  224
+    ed2  saturated=true     mult_one=yes      85
+    new  saturated=true     mult_one=unknown  2807
+    new  saturated=true     mult_one=yes      58
+    not_computed: 275573 rows (reduced rows; residue degree > 1; new-prime rows at n > the arm-(T) bound, see README).
+
+E3-7. C-F9 (m_A^2 = 0) on the cheap new-prime non-reduced rows (cf9.tsv):  over 0 row(s).
+
+E3-8. finality: 883 row(s) not final (every new-prime record: hecke_ext/v5, every ideal final, WP-C15 / WP-C18).
+    certificates at the new primes: boundary=93 cyclic=11869 sturm(B')=248510 unavailable=883.

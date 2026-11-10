@@ -1,0 +1,41 @@
+{
+ "s1": {
+  "binary_sha256": "54ab8480772f2ab9fa485f6731264b0f2a01d5769608d55efb8ee3b4b2b6a34d",
+  "eff": "EFFECTIVE campaign arm=hecke_structure cells=103 ran=0 resumed=103 rejected=0 refused=0 pending=46 final=57 failed=0 outside=0 under=0 ed1_mismatch=0 missing=0 (kit verify, read-only)",
+  "log": "<scratch>/s25/run/work/logs/s1.verify.log",
+  "missing": [],
+  "notes": [],
+  "rc": 0,
+  "t": 1794014334.8777373
+ },
+ "s2": {
+  "binary_sha256": "54ab8480772f2ab9fa485f6731264b0f2a01d5769608d55efb8ee3b4b2b6a34d",
+  "eff": "EFFECTIVE campaign arm=hecke_structure cells=109 ran=0 resumed=109 rejected=0 refused=0 pending=49 final=60 failed=0 outside=0 under=0 ed1_mismatch=0 missing=0 (kit verify, read-only)",
+  "log": "<scratch>/s25/run/work/logs/s2.verify.log",
+  "missing": [],
+  "notes": [],
+  "rc": 0,
+  "t": 1794014338.3416927
+ },
+ "s3": {
+  "binary_sha256": "54ab8480772f2ab9fa485f6731264b0f2a01d5769608d55efb8ee3b4b2b6a34d",
+  "eff": "EFFECTIVE campaign arm=hecke_structure cells=0 ran=0 resumed=0 rejected=0 refused=0 pending=0 final=0 failed=0 outside=0 under=0 ed1_mismatch=0 missing=2 (kit verify, read-only)",
+  "log": "<scratch>/s25/run/work/logs/s3.verify.log",
+  "missing": [
+   "hz_N2089_n0_anemic_s8ffc29730c4f9672",
+   "hz_N2089_n0_full_s8ffc29730c4f9672"
+  ],
+  "notes": [],
+  "rc": 0,
+  "t": 1794014338.3425658
+ },
+ "s4": {
+  "binary_sha256": "54ab8480772f2ab9fa485f6731264b0f2a01d5769608d55efb8ee3b4b2b6a34d",
+  "eff": "EFFECTIVE campaign arm=hecke_structure cells=14 ran=0 resumed=14 rejected=0 refused=0 pending=9 final=5 failed=0 outside=0 under=0 ed1_mismatch=0 missing=0 (kit verify, read-only)",
+  "log": "<scratch>/s25/run/work/logs/s4.verify.log",
+  "missing": [],
+  "notes": [],
+  "rc": 0,
+  "t": 1794014339.0948718
+ }
+}

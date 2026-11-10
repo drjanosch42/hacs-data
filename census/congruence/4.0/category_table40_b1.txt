@@ -1,0 +1,254 @@
+# the category table over edition 3's rows (slot-15 WP-15, ed3_analyse.py); edition-2 primes first, then the C1 primes.
+# The ideals at 17 ... 59 are a PARTIAL grid (coverage.tsv); at 61 ... 103 the full C1 grid, even n <= 700.
+| ell | ideals | reduced | non-reduced | max Loewy(A) | max length(A) | max embdim | non-Gorenstein | f>1 | max f | dihedral | not final |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| 107 | 10641 | 10321 | 320 | 2 | 2 | 1 | 0 | 3944 | 7 | 45 | 0 |
+| 109 | 10353 | 10187 | 166 | 2 | 2 | 1 | 0 | 4325 | 8 | 0 | 0 |
+| 113 | 10241 | 10069 | 172 | 2 | 2 | 1 | 0 | 4410 | 7 | 0 | 0 |
+| 127 | 9474 | 9395 | 79 | 2 | 2 | 1 | 0 | 3870 | 9 | 36 | 0 |
+| 131 | 10340 | 10070 | 270 | 2 | 2 | 1 | 0 | 4332 | 9 | 72 | 0 |
+| 137 | 9163 | 9095 | 68 | 2 | 2 | 1 | 0 | 4187 | 9 | 0 | 0 |
+| 139 | 9397 | 9113 | 284 | 4 | 4 | 1 | 0 | 4182 | 11 | 28 | 0 |
+| 149 | 8982 | 8885 | 97 | 2 | 2 | 1 | 0 | 4013 | 11 | 0 | 0 |
+| 151 | 9363 | 9212 | 151 | 2 | 2 | 1 | 0 | 3990 | 10 | 28 | 0 |
+| 157 | 9278 | 9018 | 260 | 2 | 2 | 1 | 0 | 4165 | 10 | 0 | 0 |
+| 163 | 8719 | 8595 | 124 | 2 | 2 | 1 | 0 | 3847 | 13 | 0 | 0 |
+| 167 | 8630 | 8575 | 55 | 2 | 2 | 1 | 0 | 4349 | 12 | 21 | 0 |
+| 173 | 8327 | 8220 | 107 | 2 | 2 | 1 | 0 | 4140 | 12 | 0 | 0 |
+| 179 | 8115 | 8020 | 95 | 2 | 2 | 1 | 0 | 3993 | 14 | 42 | 0 |
+| 181 | 8235 | 8163 | 72 | 2 | 2 | 1 | 0 | 3941 | 13 | 0 | 0 |
+| 191 | 7739 | 7673 | 66 | 2 | 2 | 1 | 0 | 3664 | 12 | 30 | 0 |
+| 193 | 7669 | 7601 | 68 | 2 | 2 | 1 | 0 | 3752 | 14 | 0 | 0 |
+| 197 | 7621 | 7598 | 23 | 2 | 2 | 1 | 0 | 3944 | 14 | 0 | 0 |
+| 199 | 7598 | 7518 | 80 | 2 | 2 | 1 | 0 | 3532 | 15 | 60 | 0 |
+
+certificate per ell:
+  ell 107  cyclic=518 sturm(B')=10123
+  ell 109  cyclic=518 sturm(B')=9835
+  ell 113  cyclic=516 sturm(B')=9725
+  ell 127  cyclic=514 sturm(B')=8960
+  ell 131  cyclic=506 sturm(B')=9834
+  ell 137  cyclic=514 sturm(B')=8649
+  ell 139  cyclic=514 sturm(B')=8883
+  ell 149  cyclic=506 sturm(B')=8476
+  ell 151  cyclic=512 sturm(B')=8851
+  ell 157  cyclic=499 sturm(B')=8779
+  ell 163  cyclic=512 sturm(B')=8207
+  ell 167  cyclic=510 sturm(B')=8120
+  ell 173  cyclic=510 sturm(B')=7817
+  ell 179  cyclic=510 sturm(B')=7605
+  ell 181  cyclic=510 sturm(B')=7725
+  ell 191  cyclic=510 sturm(B')=7229
+  ell 193  cyclic=510 sturm(B')=7159
+  ell 197  cyclic=510 sturm(B')=7111
+  ell 199  cyclic=510 sturm(B')=7088
+
+boundary_split per ell:
+  ell 107  not_applicable(H0)=9 not_computed=10632
+  ell 109  not_applicable(H0)=9 not_computed=10344
+  ell 113  not_applicable(H0)=8 not_computed=10233
+  ell 127  not_applicable(H0)=7 not_computed=9467
+  ell 131  not_applicable(H0)=7 not_computed=10333
+  ell 137  not_applicable(H0)=7 not_computed=9156
+  ell 139  not_applicable(H0)=7 not_computed=9390
+  ell 149  not_applicable(H0)=6 not_computed=8976
+  ell 151  not_applicable(H0)=6 not_computed=9357
+  ell 157  not_applicable(H0)=6 not_computed=9272
+  ell 163  not_applicable(H0)=6 not_computed=8713
+  ell 167  not_applicable(H0)=5 not_computed=8625
+  ell 173  not_applicable(H0)=5 not_computed=8322
+  ell 179  not_applicable(H0)=5 not_computed=8110
+  ell 181  not_applicable(H0)=5 not_computed=8230
+  ell 191  not_applicable(H0)=5 not_computed=7734
+  ell 193  not_applicable(H0)=5 not_computed=7664
+  ell 197  not_applicable(H0)=5 not_computed=7616
+  ell 199  not_applicable(H0)=5 not_computed=7593
+
+loewy_A per ell:
+  ell 107  1=10321 2=320
+  ell 109  1=10187 2=166
+  ell 113  1=10069 2=172
+  ell 127  1=9395 2=79
+  ell 131  1=10070 2=270
+  ell 137  1=9095 2=68
+  ell 139  1=9113 2=269 4=15
+  ell 149  1=8885 2=97
+  ell 151  1=9212 2=151
+  ell 157  1=9018 2=260
+  ell 163  1=8595 2=124
+  ell 167  1=8575 2=55
+  ell 173  1=8220 2=107
+  ell 179  1=8020 2=95
+  ell 181  1=8163 2=72
+  ell 191  1=7673 2=66
+  ell 193  1=7601 2=68
+  ell 197  1=7598 2=23
+  ell 199  1=7518 2=80
+
+module_loewy_nonreduced per ell:
+  ell 107  [2,2]=298 [3,1]=22
+  ell 109  [2,2]=144 [3,1]=22
+  ell 113  [2,2]=159 [3,1]=13
+  ell 127  [2,2]=72 [3,1]=7
+  ell 131  [2,1]=8 [2,2]=255 [3,1]=7
+  ell 137  [2,2]=61 [3,1]=7
+  ell 139  [2,2,2,2]=15 [2,2]=262 [3,1]=7
+  ell 149  [2,1]=6 [2,2]=88 [3,1]=3
+  ell 151  [2,2]=148 [3,1]=3
+  ell 157  [2,1]=13 [2,2]=244 [3,1]=3
+  ell 163  [2,2]=121 [3,1]=3
+  ell 167  [2,2]=53 [3,1]=2
+  ell 173  [2,2]=106 [3,1]=1
+  ell 179  [2,2]=94 [3,1]=1
+  ell 181  [2,2]=71 [3,1]=1
+  ell 191  [2,2]=65 [3,1]=1
+  ell 193  [2,2]=67 [3,1]=1
+  ell 197  [2,2]=22 [3,1]=1
+  ell 199  [2,2]=79 [3,1]=1
+
+residual_class per ell:
+  ell 107  dihedral=45 eis=2530 theta=8066
+  ell 109  eis=2448 theta=7868 unknown=37
+  ell 113  eis=2423 theta=7818
+  ell 127  dihedral=36 eis=2194 theta=7244
+  ell 131  dihedral=72 eis=2138 theta=8130
+  ell 137  eis=2054 theta=7109
+  ell 139  dihedral=28 eis=2026 theta=7343
+  ell 149  eis=1919 theta=7063
+  ell 151  dihedral=28 eis=1898 theta=7437
+  ell 157  eis=1835 theta=7443
+  ell 163  eis=1772 theta=6947
+  ell 167  dihedral=21 eis=1735 theta=6874
+  ell 173  eis=1694 theta=6633
+  ell 179  dihedral=42 eis=1649 theta=6424
+  ell 181  eis=1634 theta=6601
+  ell 191  dihedral=30 eis=1464 theta=6150 unknown=95
+  ell 193  eis=1544 theta=6125
+  ell 197  eis=1514 theta=6107
+  ell 199  dihedral=60 eis=1499 theta=6039
+
+residual_status per ell:
+  ell 107  certified=10541 evidence:_161_primes=100
+  ell 109  ambiguous=37 certified=10316
+  ell 113  certified=10241
+  ell 127  certified=9474
+  ell 131  certified=10340
+  ell 137  certified=9163
+  ell 139  certified=9340 evidence:_256_primes=57
+  ell 149  certified=8982
+  ell 151  certified=9363
+  ell 157  certified=9278
+  ell 163  certified=8719
+  ell 167  certified=8630
+  ell 173  certified=8327
+  ell 179  certified=8115
+  ell 181  certified=8235
+  ell 191  ambiguous=95 certified=7644
+  ell 193  certified=7669
+  ell 197  certified=7621
+  ell 199  certified=7598
+
+kummer_exact_agree per ell:
+  ell 107  not_applicable=3953 true=6688
+  ell 109  not_applicable=4334 true=6019
+  ell 113  not_applicable=4418 true=5823
+  ell 127  not_applicable=3877 true=5597
+  ell 131  not_applicable=4339 true=6001
+  ell 137  not_applicable=4194 true=4969
+  ell 139  not_applicable=4189 true=5208
+  ell 149  not_applicable=4019 true=4963
+  ell 151  not_applicable=3996 true=5367
+  ell 157  not_applicable=4171 true=5107
+  ell 163  not_applicable=3853 true=4866
+  ell 167  not_applicable=4354 true=4276
+  ell 173  not_applicable=4145 true=4182
+  ell 179  not_applicable=3998 true=4117
+  ell 181  not_applicable=3946 true=4289
+  ell 191  not_applicable=3669 true=4070
+  ell 193  not_applicable=3757 true=3912
+  ell 197  not_applicable=3949 true=3672
+  ell 199  not_applicable=3537 true=4061
+
+hidden_congruence per ell:
+  ell 107  false=280 not_applicable=3953 not_computed=6407 not_stable:torsion_block=1
+  ell 109  not_applicable=4334 not_computed=6019
+  ell 113  not_applicable=4418 not_computed=5823
+  ell 127  not_applicable=3877 not_computed=5597
+  ell 131  false=245 not_applicable=4339 not_computed=5755 not_stable:torsion_block=1
+  ell 137  not_applicable=4194 not_computed=4969
+  ell 139  not_applicable=4189 not_computed=5208
+  ell 149  false=2 not_applicable=4019 not_computed=4961
+  ell 151  not_applicable=3996 not_computed=5367
+  ell 157  false=4 not_applicable=4171 not_computed=5103
+  ell 163  not_applicable=3853 not_computed=4866
+  ell 167  not_applicable=4354 not_computed=4276
+  ell 173  not_applicable=4145 not_computed=4182
+  ell 179  not_applicable=3998 not_computed=4117
+  ell 181  not_applicable=3946 not_computed=4289
+  ell 191  not_applicable=3669 not_computed=4070
+  ell 193  not_applicable=3757 not_computed=3912
+  ell 197  not_applicable=3949 not_computed=3672
+  ell 199  false=207 not_applicable=3537 not_computed=3853 not_stable:torsion_block=1
+
+depth_window per ell:
+  ell 107  0=10623 not_surveyed=18
+  ell 109  0=10335 not_surveyed=18
+  ell 113  0=10225 not_surveyed=16
+  ell 127  0=9460 not_surveyed=14
+  ell 131  0=10326 not_surveyed=14
+  ell 137  0=9149 not_surveyed=14
+  ell 139  0=9383 not_surveyed=14
+  ell 149  0=8970 not_surveyed=12
+  ell 151  0=9351 not_surveyed=12
+  ell 157  0=9266 not_surveyed=12
+  ell 163  0=8707 not_surveyed=12
+  ell 167  0=8620 not_surveyed=10
+  ell 173  0=8317 not_surveyed=10
+  ell 179  0=8105 not_surveyed=10
+  ell 181  0=8225 not_surveyed=10
+  ell 191  0=7729 not_surveyed=10
+  ell 193  0=7659 not_surveyed=10
+  ell 197  0=7611 not_surveyed=10
+  ell 199  0=7588 not_surveyed=10
+
+saturated per ell:
+  ell 107  not_computed=10641
+  ell 109  not_computed=10353
+  ell 113  not_computed=10241
+  ell 127  not_computed=9474
+  ell 131  not_computed=10340
+  ell 137  not_computed=9163
+  ell 139  not_computed=9397
+  ell 149  not_computed=8982
+  ell 151  not_computed=9363
+  ell 157  not_computed=9278
+  ell 163  not_computed=8719
+  ell 167  not_computed=8630
+  ell 173  not_computed=8327
+  ell 179  not_computed=8115
+  ell 181  not_computed=8235
+  ell 191  not_computed=7739
+  ell 193  not_computed=7669
+  ell 197  not_computed=7621
+  ell 199  not_computed=7598
+
+mult_one per ell:
+  ell 107  not_computed=10641
+  ell 109  not_computed=10353
+  ell 113  not_computed=10241
+  ell 127  not_computed=9474
+  ell 131  not_computed=10340
+  ell 137  not_computed=9163
+  ell 139  not_computed=9397
+  ell 149  not_computed=8982
+  ell 151  not_computed=9363
+  ell 157  not_computed=9278
+  ell 163  not_computed=8719
+  ell 167  not_computed=8630
+  ell 173  not_computed=8327
+  ell 179  not_computed=8115
+  ell 181  not_computed=8235
+  ell 191  not_computed=7739
+  ell 193  not_computed=7669
+  ell 197  not_computed=7621
+  ell 199  not_computed=7598

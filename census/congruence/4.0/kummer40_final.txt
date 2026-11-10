@@ -1,0 +1,2 @@
+KUMMER40 section=main rows=279093 ambiguous=3 reevaluated=3 no_record=0 changed=0 now=true:3 old_false=0 new_false=0 undetermined=0 verdict=OK
+KUMMER40 section=b1 rows=169885 ambiguous=132 reevaluated=132 no_record=0 changed=0 now=true:132 old_false=0 new_false=0 undetermined=0 verdict=OK

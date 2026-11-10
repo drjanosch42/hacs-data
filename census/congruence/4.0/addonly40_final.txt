@@ -1,0 +1,7 @@
+ADDONLY40 base=149961 unchanged_but_edition=149961 columns_compared=74 (all but edition) violations=0
+ADDONLY40 main=279093 new_rows=129132 new_cells=4050 c1ka_cells=4050 extra=0 not_covered=0 already_in_base=0 duplicated_keys=0
+SECTION40 b1 rows=169885 cells=9500 c1kb1_cells=9500 extra=0 not_covered=0 cells_also_in_main=0 primes_also_in_main=0
+SECTION40 edition_labels={'4.0': 448978}
+KEY40 section=a records=4050 sha256_ok=4050 keys=budget_mb=16384/43364ef4020ac327:3750;budget_mb=81920/61b71f1aeb290a17:300 u_ell_off_cells=580 expected=580 verdict=OK
+KEY40 section=b1 records=9500 sha256_ok=9500 keys=budget_mb=262144/951d3b518e6e289a:9500 u_ell_off_cells=0 expected=0 verdict=OK
+ADDONLY40 verdict=OK violations=0

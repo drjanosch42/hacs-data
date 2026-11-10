@@ -1,0 +1,16 @@
+version = 1
+SPDX-PackageName = "HACS census data"
+SPDX-PackageDownloadLocation = "NOASSERTION"
+
+# All census data and its documentation: CC-BY-4.0 (reuse requires attribution; see CITATION.cff).
+# Data files (.tsv, .gz, .json, .tar.gz, .sha256) cannot carry inline headers, so they are covered here.
+[[annotations]]
+path = "census/**"
+SPDX-FileCopyrightText = "2024-2026 Fabian Januszewski"
+SPDX-License-Identifier = "CC-BY-4.0"
+
+# Top-level files of this repository (README, citation metadata, edition ledger, checksums).
+[[annotations]]
+path = ["README.md", "EDITIONS.md", "CITATION.cff", "CHECKSUMS.sha256"]
+SPDX-FileCopyrightText = "2024-2026 Fabian Januszewski"
+SPDX-License-Identifier = "CC-BY-4.0"

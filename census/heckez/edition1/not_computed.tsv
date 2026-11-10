@@ -1,0 +1,7 @@
+# schema=integral_hecke_dataset/v1 table=not_computed rows=5 tool=mk_hecke_dataset.py v1.1 (HZ-DS fix round 1) edition=hecke_ed1
+N	n	algebra	id	kind	lane	pred_wall_s	reason
+1	484	full	hz_N1_n484_full_s8ffc29730c4f9672	deferred_before_run	-	-	pass 2 (2026-11-06): still out of reach after HZ-RAT-PERF (predicted word primes 117216; fix-round estimate 160-10^4 h)
+1	700	full	hz_N1_n700_full_s8ffc29730c4f9672	deferred_before_run	-	-	pass 2 (2026-11-06): still out of reach after HZ-RAT-PERF (predicted word primes 353270; fix-round estimate 160-10^4 h)
+1	702	full	hz_N1_n702_full_s8ffc29730c4f9672	deferred_before_run	-	-	pass 2 (2026-11-06): still out of reach after HZ-RAT-PERF (predicted word primes 354276; fix-round estimate 160-10^4 h)
+2089	0	anemic	hz_N2089_n0_anemic_s8ffc29730c4f9672	planned_not_finished	s3	1143112.8	stopped on the owner's instruction 2026-11-06 21:26 UTC after 5704 s (SIGTERM; predicted 2288151 s = ~635 h against the 12 h cell cap; single-threaded anemic HZ-LOC route); not a code failure; re-run after the anemic route is parallelised or a longer cap is approved (HZRUN_pass2_report.md)
+2089	0	full	hz_N2089_n0_full_s8ffc29730c4f9672	planned_not_finished	s3	1145037.9	stopped on the owner's instruction 2026-11-06 21:26 UTC after 5704 s (SIGTERM; predicted 2288151 s = ~635 h against the 12 h cell cap; single-threaded anemic HZ-LOC route); not a code failure; re-run after the anemic route is parallelised or a longer cap is approved (HZRUN_pass2_report.md)

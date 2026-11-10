@@ -1,0 +1,21 @@
+# census edition 3 (slot-15 WP-15): coverage per ell. grid = the C1 grid of the ell (even n 2..1000, 500 cells) or edition2 (no grid claim). status: complete = every grid cell present; partial = some missing (see missing.txt)
+ell	grid	grid_cells	cells_present	coverage	status	n_present	rows	H1	H0	non_reduced	sources
+107	C1l	500	500	100.0%	complete	2..1000	10641	10632	9	320	c1kb1_local:500
+109	C1l	500	500	100.0%	complete	2..1000	10353	10344	9	166	c1kb1_local:500
+113	C1l	500	500	100.0%	complete	2..1000	10241	10233	8	172	c1kb1_local:500
+127	C1l	500	500	100.0%	complete	2..1000	9474	9467	7	79	c1kb1_local:500
+131	C1l	500	500	100.0%	complete	2..1000	10340	10333	7	270	c1kb1_local:500
+137	C1l	500	500	100.0%	complete	2..1000	9163	9156	7	68	c1kb1_local:500
+139	C1l	500	500	100.0%	complete	2..1000	9397	9390	7	284	c1kb1_local:500
+149	C1l	500	500	100.0%	complete	2..1000	8982	8976	6	97	c1kb1_local:500
+151	C1l	500	500	100.0%	complete	2..1000	9363	9357	6	151	c1kb1_local:500
+157	C1l	500	500	100.0%	complete	2..1000	9278	9272	6	260	c1kb1_local:500
+163	C1l	500	500	100.0%	complete	2..1000	8719	8713	6	124	c1kb1_local:500
+167	C1l	500	500	100.0%	complete	2..1000	8630	8625	5	55	c1kb1_local:500
+173	C1l	500	500	100.0%	complete	2..1000	8327	8322	5	107	c1kb1_local:500
+179	C1l	500	500	100.0%	complete	2..1000	8115	8110	5	95	c1kb1_local:500
+181	C1l	500	500	100.0%	complete	2..1000	8235	8230	5	72	c1kb1_local:500
+191	C1l	500	500	100.0%	complete	2..1000	7739	7734	5	66	c1kb1_local:500
+193	C1l	500	500	100.0%	complete	2..1000	7669	7664	5	68	c1kb1_local:500
+197	C1l	500	500	100.0%	complete	2..1000	7621	7616	5	23	c1kb1_local:500
+199	C1l	500	500	100.0%	complete	2..1000	7598	7593	5	80	c1kb1_local:500

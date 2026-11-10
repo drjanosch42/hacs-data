@@ -1,0 +1,350 @@
+# the category table over edition 3's rows (slot-15 WP-15, ed3_analyse.py); edition-2 primes first, then the C1 primes.
+# The ideals at 17 ... 59 are a PARTIAL grid (coverage.tsv); at 61 ... 103 the full C1 grid, even n <= 700.
+| ell | ideals | reduced | non-reduced | max Loewy(A) | max length(A) | max embdim | non-Gorenstein | f>1 | max f | dihedral | not final |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| 5 | 2443 | 2418 | 25 | 2 | 2 | 1 | 0 | 0 | 1 | 0 | 0 |
+| 7 | 2828 | 2345 | 483 | 2 | 4 | 3 | 421 | 0 | 1 | 0 | 0 |
+| 11 | 4343 | 2995 | 1348 | 2 | 4 | 3 | 680 | 0 | 1 | 0 | 0 |
+| 13 | 4594 | 2014 | 2580 | 2 | 4 | 3 | 569 | 0 | 1 | 0 | 0 |
+| 17 | 7028 | 3380 | 3648 | 2 | 4 | 3 | 282 | 0 | 1 | 0 | 53 |
+| 19 | 8146 | 3812 | 4334 | 2 | 3 | 2 | 222 | 0 | 1 | 0 | 51 |
+| 23 | 9670 | 4416 | 5254 | 3 | 4 | 2 | 148 | 759 | 2 | 475 | 38 |
+| 29 | 12121 | 7245 | 4876 | 2 | 3 | 2 | 5 | 1961 | 2 | 0 | 11 |
+| 31 | 13364 | 8455 | 4909 | 3 | 3 | 1 | 0 | 1218 | 2 | 406 | 3 |
+| 37 | 14170 | 10792 | 3378 | 4 | 4 | 1 | 0 | 1650 | 3 | 0 | 28 |
+| 41 | 14403 | 11922 | 2481 | 2 | 2 | 1 | 0 | 3017 | 3 | 0 | 0 |
+| 43 | 14724 | 12425 | 2299 | 2 | 2 | 1 | 0 | 2918 | 3 | 0 | 0 |
+| 47 | 14050 | 12192 | 1858 | 2 | 2 | 1 | 0 | 3414 | 3 | 238 | 0 |
+| 53 | 12356 | 11388 | 968 | 2 | 2 | 1 | 0 | 4361 | 4 | 0 | 0 |
+| 59 | 14163 | 12337 | 1826 | 3 | 4 | 2 | 2 | 3530 | 3 | 153 | 0 |
+| 61 | 12727 | 11963 | 764 | 2 | 2 | 1 | 0 | 3874 | 4 | 0 | 0 |
+| 67 | 13802 | 12693 | 1109 | 4 | 4 | 1 | 0 | 3885 | 4 | 0 | 0 |
+| 71 | 12815 | 11624 | 1191 | 2 | 2 | 1 | 0 | 4310 | 4 | 315 | 0 |
+| 73 | 12748 | 12026 | 722 | 2 | 2 | 1 | 0 | 4354 | 5 | 0 | 0 |
+| 79 | 12186 | 11568 | 618 | 2 | 2 | 1 | 0 | 4501 | 5 | 182 | 0 |
+| 83 | 12567 | 12055 | 512 | 2 | 2 | 1 | 0 | 4547 | 6 | 78 | 171 |
+| 89 | 12463 | 11946 | 517 | 2 | 2 | 1 | 0 | 3617 | 5 | 0 | 135 |
+| 97 | 11886 | 11514 | 372 | 2 | 2 | 1 | 0 | 4287 | 6 | 0 | 244 |
+| 101 | 11031 | 10781 | 250 | 2 | 2 | 1 | 0 | 5102 | 7 | 0 | 72 |
+| 103 | 10976 | 10694 | 282 | 2 | 2 | 1 | 0 | 4174 | 6 | 55 | 74 |
+| 547 | 3959 | 3953 | 6 | 3 | 3 | 1 | 0 | 2321 | 42 | 0 | 3 |
+| 691 | 3530 | 3521 | 9 | 2 | 2 | 1 | 0 | 2037 | 54 | 2 | 0 |
+
+certificate per ell:
+  ell 5    boundary=948 cyclic=627 dickson=832 sturm(B')=36
+  ell 7    boundary=850 cyclic=845 dickson=520 sturm(B')=613
+  ell 11   boundary=415 cyclic=938 sturm(B')=2990
+  ell 13   boundary=256 cyclic=783 sturm(B')=3555
+  ell 17   boundary=63 cyclic=650 sturm(B')=6262 unavailable=53
+  ell 19   boundary=29 cyclic=618 sturm(B')=7448 unavailable=51
+  ell 23   boundary=1 cyclic=585 sturm(B')=9046 unavailable=38
+  ell 29   cyclic=569 sturm(B')=11541 unavailable=11
+  ell 31   cyclic=565 sturm(B')=12796 unavailable=3
+  ell 37   cyclic=525 sturm(B')=13617 unavailable=28
+  ell 41   cyclic=546 sturm(B')=13857
+  ell 43   cyclic=544 sturm(B')=14180
+  ell 47   cyclic=540 sturm(B')=13510
+  ell 53   cyclic=536 sturm(B')=11820
+  ell 59   cyclic=515 sturm(B')=13648
+  ell 61   cyclic=532 sturm(B')=12195
+  ell 67   cyclic=513 sturm(B')=13289
+  ell 71   cyclic=526 sturm(B')=12289
+  ell 73   cyclic=526 sturm(B')=12222
+  ell 79   cyclic=524 sturm(B')=11662
+  ell 83   cyclic=517 sturm(B')=11879 unavailable=171
+  ell 89   cyclic=518 sturm(B')=11810 unavailable=135
+  ell 97   cyclic=513 sturm(B')=11129 unavailable=244
+  ell 101  cyclic=505 sturm(B')=10454 unavailable=72
+  ell 103  cyclic=505 sturm(B')=10397 unavailable=74
+  ell 547  cyclic=497 sturm(B')=3459 unavailable=3
+  ell 691  cyclic=499 sturm(B')=3031
+
+boundary_split per ell:
+  ell 5    eisenstein=289 not_applicable(H0)=954 not_computed=1200
+  ell 7    eisenstein=430 mixed=140 not_applicable(H0)=858 not_computed=1400
+  ell 11   cuspidal=260 eisenstein=406 mixed=380 not_applicable(H0)=427 not_computed=2870
+  ell 13   cuspidal=144 eisenstein=241 mixed=272 not_applicable(H0)=270 not_computed=3667
+  ell 17   cuspidal=114 eisenstein=90 mixed=120 not_applicable(H0)=133 not_computed=6571
+  ell 19   cuspidal=132 eisenstein=85 mixed=113 not_applicable(H0)=99 not_computed=7717
+  ell 23   cuspidal=138 eisenstein=77 mixed=97 not_applicable(H0)=62 not_computed=9296
+  ell 29   cuspidal=145 eisenstein=71 mixed=77 not_applicable(H0)=40 not_computed=11788
+  ell 31   cuspidal=164 eisenstein=66 mixed=77 not_applicable(H0)=34 not_computed=13023
+  ell 37   cuspidal=183 eisenstein=65 mixed=75 not_applicable(H0)=26 not_computed=13821
+  ell 41   not_applicable(H0)=23 not_computed=14380
+  ell 43   not_applicable(H0)=22 not_computed=14702
+  ell 47   not_applicable(H0)=20 not_computed=14030
+  ell 53   not_applicable(H0)=18 not_computed=12338
+  ell 59   cuspidal=168 eisenstein=61 mixed=30 not_applicable(H0)=16 not_computed=13888
+  ell 61   not_applicable(H0)=16 not_computed=12711
+  ell 67   cuspidal=159 eisenstein=60 mixed=27 not_applicable(H0)=14 not_computed=13542
+  ell 71   not_applicable(H0)=13 not_computed=12802
+  ell 73   not_applicable(H0)=13 not_computed=12735
+  ell 79   not_applicable(H0)=12 not_computed=12174
+  ell 83   not_applicable(H0)=11 not_computed=12556
+  ell 89   not_applicable(H0)=11 not_computed=12452
+  ell 97   not_applicable(H0)=10 not_computed=11876
+  ell 101  cuspidal=119 eisenstein=60 mixed=10 not_applicable(H0)=9 not_computed=10833
+  ell 103  cuspidal=138 eisenstein=61 mixed=14 not_applicable(H0)=9 not_computed=10754
+  ell 547  not_applicable(H0)=1 not_computed=3958
+  ell 691  cuspidal=4 mixed=2 not_applicable(H0)=2 not_computed=3186 undecided=336
+
+loewy_A per ell:
+  ell 5    1=2418 2=25
+  ell 7    1=2345 2=483
+  ell 11   1=2995 2=1348
+  ell 13   1=2014 2=2580
+  ell 17   1=3380 2=3648
+  ell 19   1=3812 2=4334
+  ell 23   1=4416 2=4968 3=286
+  ell 29   1=7245 2=4876
+  ell 31   1=8455 2=4777 3=132
+  ell 37   1=10792 2=3156 4=222
+  ell 41   1=11922 2=2481
+  ell 43   1=12425 2=2299
+  ell 47   1=12192 2=1858
+  ell 53   1=11388 2=968
+  ell 59   1=12337 2=1822 3=4
+  ell 61   1=11963 2=764
+  ell 67   1=12693 2=1098 4=11
+  ell 71   1=11624 2=1191
+  ell 73   1=12026 2=722
+  ell 79   1=11568 2=618
+  ell 83   1=12055 2=512
+  ell 89   1=11946 2=517
+  ell 97   1=11514 2=372
+  ell 101  1=10781 2=250
+  ell 103  1=10694 2=282
+  ell 547  1=3953 2=4 3=2
+  ell 691  1=3521 2=9
+
+module_loewy_nonreduced per ell:
+  ell 5    [1,1]=2 [2,1]=3 [3,1]=4 [4,1]=5 [5,1]=2 [6,1]=3 [7,1]=4 [8,1]=2
+  ell 7    [1,1]=2 [10,2]=9 [11,3]=12 [13,3]=12 [14,4]=9 [15,3]=3 [16,4]=12 [17,5]=6 [18,4]=6 [19,5]=12 [2,1]=3 [20,6]=3 [21,5]=9 [22,6]=12 [24,6]=12 [25,7]=9 [26,6]=3 [27,7]=12 [28,8]=6 [29,7]=6 [3,1]=9 [30,8]=12 [31,9]=3 [32,8]=9 [33,9]=12 [35,9]=12 [36,10]=9 [37,9]=3 [38,10]=12 [39,11]=6 [40,10]=6 [41,11]=12 [42,12]=3 [43,11]=9 [44,12]=12 [46,12]=12 [47,13]=9 [48,12]=3 [49,13]=12 [5,1]=12 [50,14]=6 [51,13]=6 [52,14]=12 [53,15]=3 [54,14]=9 [55,15]=12 [57,15]=12 [58,16]=9 [59,15]=3 [6,2]=6 [60,16]=12 [61,17]=6 [62,16]=6 [63,17]=12 [64,18]=3 [65,17]=8 [66,18]=2 [7,1]=6 [8,2]=12 [9,3]=3
+  ell 11   [10,2]=45 [11,3]=82 [12,4]=38 [13,3]=60 [14,4]=79 [15,3]=3 [15,5]=26 [16,4]=72 [17,5]=76 [18,4]=6 [18,6]=14 [19,5]=84 [20,6]=68 [21,5]=14 [21,7]=7 [22,6]=91 [23,7]=60 [24,6]=22 [25,7]=86 [26,8]=17 [3,1]=83 [5,1]=82 [6,2]=68 [7,1]=30 [8,2]=82 [9,3]=53
+  ell 13   [10,10]=77 [10,2]=95 [10,4]=12 [10,6]=12 [10,8]=19 [11,3]=148 [12,10]=17 [12,12]=43 [12,2]=2 [12,4]=126 [12,6]=12 [12,8]=12 [13,3]=96 [14,10]=4 [14,4]=148 [14,6]=45 [14,8]=12 [15,3]=3 [15,5]=71 [16,4]=117 [16,6]=4 [16,8]=8 [17,5]=140 [18,4]=6 [18,6]=36 [19,5]=34 [2,2]=121 [3,1]=164 [4,2]=22 [4,4]=110 [5,1]=148 [6,2]=152 [6,4]=21 [6,6]=99 [7,1]=48 [8,2]=160 [8,4]=12 [8,6]=20 [8,8]=88 [9,3]=116
+  ell 17   [10,2]=157 [10,4]=10 [11,3]=149 [12,2]=4 [12,4]=12 [2,2]=346 [3,1]=454 [4,2]=96 [4,4]=320 [5,1]=362 [6,2]=438 [6,4]=90 [6,6]=280 [7,1]=96 [8,2]=394 [8,4]=26 [8,6]=40 [8,8]=22 [9,3]=352
+  ell 19   [2,2]=635 [3,1]=679 [4,2]=182 [4,4]=591 [5,1]=518 [6,2]=668 [6,4]=151 [6,6]=165 [7,1]=125 [8,2]=485 [9,3]=135
+  ell 23   [2,2]=1437 [3,1]=1329 [4,2,2]=121 [4,2]=325 [4,4]=501 [5,1]=912 [6,2]=464 [6,4,2]=110 [8,2,2]=19 [8,4,4]=36
+  ell 29   [2,2]=2413 [3,1]=2212 [4,2]=90 [4,4]=7 [5,1]=153 [6,2]=1
+  ell 31   [2,2]=2699 [3,1]=2073 [4,2,2]=132 [5,1]=4 [6,2]=1
+  ell 37   [2,1]=27 [2,2]=2163 [3,1]=966 [3,2,2,1]=222
+  ell 41   [2,2]=1657 [3,1]=824
+  ell 43   [2,2]=1590 [3,1]=709
+  ell 47   [2,2]=1334 [3,1]=524
+  ell 53   [2,2]=645 [3,1]=323
+  ell 59   [2,1]=17 [2,2,2]=2 [2,2]=1580 [3,1]=225 [4,2,2]=2
+  ell 61   [2,2]=561 [3,1]=203
+  ell 67   [2,1]=15 [2,2]=954 [3,1]=129 [3,2,2,1]=11
+  ell 71   [2,2]=1067 [3,1]=124
+  ell 73   [2,2]=627 [3,1]=95
+  ell 79   [2,2]=548 [3,1]=70
+  ell 83   [2,2]=443 [3,1]=69
+  ell 89   [2,2]=467 [3,1]=50
+  ell 97   [2,2]=338 [3,1]=34
+  ell 101  [2,1]=10 [2,2]=218 [3,1]=22
+  ell 103  [2,1]=10 [2,2]=250 [3,1]=22
+  ell 547  [2,1]=2 [2,2,1]=1 [2,2,2]=1 [2,2]=2
+  ell 691  [2,1]=4 [2,2]=5
+
+residual_class per ell:
+  ell 5    eis=1954 theta=488 unknown=1
+  ell 7    eis=2661 theta=166 unknown=1
+  ell 11   eis=3312 theta=1030 unknown=1
+  ell 13   eis=3582 theta=1011 unknown=1
+  ell 17   eis=4218 theta=2810
+  ell 19   eis=4521 theta=3625
+  ell 23   dihedral=475 eis=5040 theta=4155
+  ell 29   eis=5497 theta=6624
+  ell 31   dihedral=406 eis=5540 theta=7418
+  ell 37   eis=5376 theta=8794
+  ell 41   eis=5151 theta=9252
+  ell 43   eis=5020 theta=9704
+  ell 47   dihedral=238 eis=4768 theta=9044
+  ell 53   eis=4436 theta=7920
+  ell 59   dihedral=153 eis=4100 theta=9910
+  ell 61   eis=3993 theta=8734
+  ell 67   eis=3726 theta=10076
+  ell 71   dihedral=315 eis=3537 theta=8963
+  ell 73   eis=3486 theta=9262
+  ell 79   dihedral=182 eis=3268 theta=8736
+  ell 83   dihedral=78 eis=3112 theta=9377
+  ell 89   eis=2943 theta=9520
+  ell 97   eis=2739 theta=9147
+  ell 101  eis=2661 theta=8370
+  ell 103  dihedral=55 eis=2617 theta=8304
+  ell 547  eis=725 theta=3231 unknown=3
+  ell 691  dihedral=2 eis=654 theta=2873 unknown=1
+
+residual_status per ell:
+  ell 5    certified=2442 k_odd_or_<_4=1
+  ell 7    certified=2827 k_odd_or_<_4=1
+  ell 11   certified=4342 k_odd_or_<_4=1
+  ell 13   certified=4593 k_odd_or_<_4=1
+  ell 17   certified=7028
+  ell 19   certified=8146
+  ell 23   certified=9670
+  ell 29   certified=12121
+  ell 31   certified=13364
+  ell 37   certified=14170
+  ell 41   certified=14403
+  ell 43   certified=14724
+  ell 47   certified=14050
+  ell 53   certified=12356
+  ell 59   certified=13862 evidence:_61_primes=301
+  ell 61   certified=12727
+  ell 67   certified=13802
+  ell 71   certified=12815
+  ell 73   certified=12748
+  ell 79   certified=12186
+  ell 83   certified=12567
+  ell 89   certified=12463
+  ell 97   certified=11886
+  ell 101  certified=11031
+  ell 103  certified=10976
+  ell 547  ambiguous=3 certified=3956
+  ell 691  certified=3529 k_odd_or_<_4=1
+
+kummer_exact_agree per ell:
+  ell 5    not_applicable=954 true=1489
+  ell 7    not_applicable=858 true=1970
+  ell 11   not_applicable=427 true=3916
+  ell 13   not_applicable=270 true=4324
+  ell 17   not_applicable=133 true=6895
+  ell 19   not_applicable=99 true=8047
+  ell 23   not_applicable=821 true=8849
+  ell 29   not_applicable=2001 true=10120
+  ell 31   not_applicable=1252 true=12112
+  ell 37   not_applicable=1676 true=12494
+  ell 41   not_applicable=3040 true=11363
+  ell 43   not_applicable=2940 true=11784
+  ell 47   not_applicable=3434 true=10616
+  ell 53   not_applicable=4379 true=7977
+  ell 59   not_applicable=3546 true=10617
+  ell 61   not_applicable=3890 true=8837
+  ell 67   not_applicable=3899 true=9903
+  ell 71   not_applicable=4323 true=8492
+  ell 73   not_applicable=4367 true=8381
+  ell 79   not_applicable=4513 true=7673
+  ell 83   not_applicable=4558 true=8009
+  ell 89   not_applicable=3628 true=8835
+  ell 97   not_applicable=4297 true=7589
+  ell 101  not_applicable=5111 true=5920
+  ell 103  not_applicable=4183 true=6793
+  ell 547  not_applicable=2322 true=1637
+  ell 691  not_applicable=2039 true=1491
+
+hidden_congruence per ell:
+  ell 5    not_applicable=954 not_computed=1489
+  ell 7    false=162 not_applicable=858 not_computed=1322 not_stable:not_stable_at_KTOP=5 not_stable:torsion_block=285 true=196
+  ell 11   false=199 not_applicable=427 not_computed=3337 not_stable:torsion_block=42 true=338
+  ell 13   false=168 not_applicable=270 not_computed=3970 not_stable:torsion_block=22 true=164
+  ell 17   false=1807 not_applicable=133 not_computed=4920 not_stable:torsion_block=24 true=144
+  ell 19   false=2096 not_applicable=99 not_computed=5901 not_stable:torsion_block=19 true=31
+  ell 23   false=2032 not_applicable=821 not_computed=6792 not_stable:torsion_block=15 true=10
+  ell 29   false=1921 not_applicable=2001 not_computed=8187 not_stable:torsion_block=12
+  ell 31   false=2141 not_applicable=1252 not_computed=9960 not_stable:torsion_block=11
+  ell 37   false=2002 not_applicable=1676 not_computed=10483 not_stable:torsion_block=9
+  ell 41   not_applicable=3040 not_computed=11363
+  ell 43   not_applicable=2940 not_computed=11784
+  ell 47   false=499 not_applicable=3434 not_computed=10113 not_stable:torsion_block=4
+  ell 53   not_applicable=4379 not_computed=7977
+  ell 59   false=410 not_applicable=3546 not_computed=10205 not_stable:torsion_block=2
+  ell 61   not_applicable=3890 not_computed=8837
+  ell 67   false=77 not_applicable=3899 not_computed=9826
+  ell 71   false=344 not_applicable=4323 not_computed=8146 not_stable:torsion_block=2
+  ell 73   not_applicable=4367 not_computed=8381
+  ell 79   false=295 not_applicable=4513 not_computed=7376 not_stable:torsion_block=2
+  ell 83   false=310 not_applicable=4558 not_computed=7697 not_stable:torsion_block=2
+  ell 89   not_applicable=3628 not_computed=8835
+  ell 97   not_applicable=4297 not_computed=7589
+  ell 101  false=1 not_applicable=5111 not_computed=5919
+  ell 103  false=29 not_applicable=4183 not_computed=6764
+  ell 547  not_applicable=2322 not_computed=1637
+  ell 691  false=3 not_applicable=2039 not_computed=1488
+
+depth_window per ell:
+  ell 5    0=536 1=222 cell_level:{>=2,1,1,1}=8 cell_level:{>=2,1,1}=16 cell_level:{>=2,1}=12 not_applicable=1 not_surveyed=1648
+  ell 7    0=1113 1=274 >=2=2 cell_level:{>=2,1}=16 not_applicable=1 not_surveyed=1422
+  ell 11   0=3490 1=82 >=2=4 not_applicable=1 not_surveyed=766
+  ell 13   0=4055 1=54 >=2=2 not_applicable=1 not_surveyed=482
+  ell 17   0=6762 not_surveyed=266
+  ell 19   0=7948 not_surveyed=198
+  ell 23   0=9546 not_surveyed=124
+  ell 29   0=12041 not_surveyed=80
+  ell 31   0=13296 not_surveyed=68
+  ell 37   0=14118 not_surveyed=52
+  ell 41   0=14357 not_surveyed=46
+  ell 43   0=14680 not_surveyed=44
+  ell 47   0=14010 not_surveyed=40
+  ell 53   0=12320 not_surveyed=36
+  ell 59   0=14131 not_surveyed=32
+  ell 61   0=12695 not_surveyed=32
+  ell 67   0=13774 not_surveyed=28
+  ell 71   0=12789 not_surveyed=26
+  ell 73   0=12722 not_surveyed=26
+  ell 79   0=12162 not_surveyed=24
+  ell 83   0=12545 not_surveyed=22
+  ell 89   0=12441 not_surveyed=22
+  ell 97   0=11866 not_surveyed=20
+  ell 101  0=11013 not_surveyed=18
+  ell 103  0=10958 not_surveyed=18
+  ell 547  0=3957 not_surveyed=2
+  ell 691  0=3527 not_applicable=1 not_surveyed=2
+
+saturated per ell:
+  ell 5    not_applicable=1 not_computed=2442
+  ell 7    false=119 not_computed=2700 true=9
+  ell 11   false=215 not_computed=4045 true=83
+  ell 13   false=11 not_computed=4368 true=215
+  ell 17   not_computed=7006 true=22
+  ell 19   not_computed=8130 true=16
+  ell 23   not_computed=9652 true=18
+  ell 29   not_computed=12121
+  ell 31   not_computed=13358 true=6
+  ell 37   not_computed=13959 true=211
+  ell 41   not_computed=14204 true=199
+  ell 43   not_computed=14492 true=232
+  ell 47   not_computed=13930 true=120
+  ell 53   not_computed=12258 true=98
+  ell 59   not_computed=13808 true=355
+  ell 61   not_computed=12604 true=123
+  ell 67   not_computed=13502 true=300
+  ell 71   not_computed=12453 true=362
+  ell 73   not_computed=12551 true=197
+  ell 79   not_computed=12029 true=157
+  ell 83   not_computed=12462 true=105
+  ell 89   not_computed=12324 true=139
+  ell 97   not_computed=11803 true=83
+  ell 101  not_computed=10966 true=65
+  ell 103  not_computed=10919 true=57
+  ell 547  not_computed=3959
+  ell 691  not_computed=3528 true=2
+
+mult_one per ell:
+  ell 5    not_computed=2442 unknown=1
+  ell 7    not_computed=2700 unknown=128
+  ell 11   not_computed=4045 unknown=298
+  ell 13   no=2 not_computed=4368 unknown=139 yes=85
+  ell 17   not_computed=7006 unknown=7 yes=15
+  ell 19   not_computed=8130 unknown=3 yes=13
+  ell 23   not_computed=9652 unknown=1 yes=17
+  ell 29   not_computed=12121
+  ell 31   not_computed=13358 yes=6
+  ell 37   not_computed=13959 unknown=211
+  ell 41   not_computed=14204 unknown=199
+  ell 43   not_computed=14492 unknown=232
+  ell 47   not_computed=13930 unknown=120
+  ell 53   not_computed=12258 unknown=98
+  ell 59   not_computed=13808 unknown=352 yes=3
+  ell 61   not_computed=12604 unknown=123
+  ell 67   not_computed=13502 unknown=296 yes=4
+  ell 71   not_computed=12453 unknown=362
+  ell 73   not_computed=12551 unknown=197
+  ell 79   not_computed=12029 unknown=157
+  ell 83   not_computed=12462 unknown=105
+  ell 89   not_computed=12324 unknown=139
+  ell 97   not_computed=11803 unknown=83
+  ell 101  not_computed=10966 unknown=65
+  ell 103  not_computed=10919 unknown=57
+  ell 547  not_computed=3959
+  ell 691  not_computed=3528 unknown=2

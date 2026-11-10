@@ -1,0 +1,8 @@
+XCHECK40 O1R n=756 ell=7 blocks=4 rows_H1=4 stable=(D=62,A1=[1,2]) row=(id=5,D=62,hilbert=[1,2]) reduced_rank1_D=1 agree=True
+XCHECK40 O1R n=762 ell=7 blocks=4 rows_H1=4 stable=(D=64,A1=[1,2]) row=(id=5,D=64,hilbert=[1,2]) reduced_rank1_D=1 agree=True
+XCHECK40 O1R n=764 ell=7 blocks=4 rows_H1=4 stable=(D=62,A1=[1,2]) row=(id=4,D=62,hilbert=[1,2]) reduced_rank1_D=1 agree=True
+XCHECK40 O1R n=770 ell=7 blocks=4 rows_H1=4 stable=(D=64,A1=[1,2]) row=(id=4,D=64,hilbert=[1,2]) reduced_rank1_D=1 agree=True
+XCHECK40 O1R n=772 ell=7 blocks=4 rows_H1=4 stable=(D=64,A1=[1,3]) row=(id=5,D=64,hilbert=[1,3]) reduced_rank1_D=1 agree=True
+XCHECK40 O1R n=778 ell=7 blocks=4 rows_H1=4 stable=(D=66,A1=[1,3]) row=(id=5,D=66,hilbert=[1,3]) reduced_rank1_D=1 agree=True
+XCHECK40 WS912 n=912 ell=59 block_D=3 A1=[1, 1] matching_ideals=1 row=(id=28,D=3,hilbert=[1,1]) agree=True
+XCHECK40 cells=7 disagree=0 verdict=OK

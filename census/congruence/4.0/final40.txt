@@ -1,0 +1,6 @@
+FINAL40 section=main base_rows=279093 rows=279093 same_key_same_position=279093 columns_identical=74 (all but edition) rows_differing_there=0 edition_old=4.0-pre.1 edition_4.0=279093
+FINAL40 section=main projection_sha256 base=5c5fef4c1c084e9d2a244133acedf6f5df83ad7d88efdae767bdb5a03236ba36 final=5c5fef4c1c084e9d2a244133acedf6f5df83ad7d88efdae767bdb5a03236ba36 equal=True
+FINAL40 section=main verdict=OK violations=0
+FINAL40 section=b1 base_rows=169885 rows=169885 same_key_same_position=169885 columns_identical=74 (all but edition) rows_differing_there=0 edition_old=4.0-pre.1 edition_4.0=169885
+FINAL40 section=b1 projection_sha256 base=fe0f7fe2046ad116f6b27a52068ce0e081689ff7404561efd5dd17decaea43f1 final=fe0f7fe2046ad116f6b27a52068ce0e081689ff7404561efd5dd17decaea43f1 equal=True
+FINAL40 section=b1 verdict=OK violations=0
