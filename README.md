@@ -2,13 +2,16 @@
 <!-- SPDX-License-Identifier: CC-BY-4.0 -->
 # HACS census data
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24118877.svg)](https://doi.org/10.5281/zenodo.24118877)
+
 *Data sets produced with HACS, the Harder Arithmetic Cohomology System: high-performance simplicial orbifold cohomology implementation for arithmetic groups (C++ / AVX-512 / CUDA).*
 
 **In memoriam Prof. Dr. Günter Harder (1938-2025).**
 
 This repository holds the **signed editions** of the HACS census data: tables of Hecke algebras and Hecke modules in the cohomology of
 SL_2(Z) and of Gamma_0(N) with coefficients in the symmetric powers of the standard representation. The software that produced them is the
-HACS code repository (a separate repository; not part of this one).
+HACS code repository (a separate repository; not part of this one), Zenodo concept DOI
+[10.5281/zenodo.24118841](https://doi.org/10.5281/zenodo.24118841).
 
 ## Contents
 
@@ -43,8 +46,11 @@ sha256sum -c CHECKSUMS.sha256                                   # every file of 
 
 All data and documentation: **CC-BY-4.0** (`LICENSES/CC-BY-4.0.txt`, mapping in `REUSE.toml`); reuse requires attribution.
 
-Please cite these data using the metadata in `CITATION.cff`, together with the edition shown in the table's header. Each
-release is archived on Zenodo, which assigns it a DOI; see the release page.
+Please cite these data using the metadata in `CITATION.cff`, together with the edition shown in the table's header. To
+cite all versions, use the Zenodo concept DOI [10.5281/zenodo.24118877](https://doi.org/10.5281/zenodo.24118877), which
+always resolves to the latest release. Each release also has its own version DOI on Zenodo (for example, 0.1.0 is
+[10.5281/zenodo.24118878](https://doi.org/10.5281/zenodo.24118878)). The software that computed the data, HACS, is cited
+with its concept DOI [10.5281/zenodo.24118841](https://doi.org/10.5281/zenodo.24118841).
 
 ## Acknowledgements
 

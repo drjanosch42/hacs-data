@@ -1,7 +1,10 @@
 # SPDX-FileCopyrightText: 2024-2026 Fabian Januszewski
 # SPDX-License-Identifier: CC-BY-4.0
 cff-version: 1.2.0
-message: "If you use these data, please cite them using the metadata from this file."
+message: >-
+  If you use these data, please cite them using the metadata from this file, together with the edition shown in the
+  table's header. The DOI below is the Zenodo concept DOI, which covers all versions and resolves to the latest one;
+  each release also has its own version DOI on Zenodo.
 title: "HACS census of Hecke algebras and modules in the cohomology of SL_2(Z)"
 type: dataset
 authors:
@@ -16,7 +19,16 @@ abstract: >-
   shown in each table's header is the one to cite.
 license: CC-BY-4.0
 repository-code: "https://github.com/drjanosch42/hacs-data"
-version: "0.1.0"
+version: "0.1.1"
+date-released: "2026-11-10"
+doi: 10.5281/zenodo.24118877
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.24118877
+    description: "Concept DOI of the HACS census data: all versions (resolves to the latest version)."
+  - type: doi
+    value: 10.5281/zenodo.24118878
+    description: "Version DOI of the HACS census data 0.1.0."
 references:
   - type: software
     title: "HACS — Harder Arithmetic Cohomology System"
@@ -24,10 +36,11 @@ references:
       - family-names: Januszewski
         given-names: Fabian
         affiliation: "Universität Paderborn"
+    doi: 10.5281/zenodo.24118841
     repository-code: "https://github.com/drjanosch42/hacs"
     url: "https://github.com/drjanosch42/hacs"
     license: LGPL-3.0-only
-    notes: "The software that computed these data."
+    notes: "The software that computed these data. The DOI is its Zenodo concept DOI (all versions)."
 preferred-citation:
   type: data
   title: "HACS census of Hecke algebras and modules in the cohomology of SL_2(Z)"
@@ -36,7 +49,8 @@ preferred-citation:
       given-names: Fabian
       affiliation: "Universität Paderborn"
   repository-code: "https://github.com/drjanosch42/hacs-data"
-  version: "0.1.0"
+  doi: 10.5281/zenodo.24118877
+  version: "0.1.1"
   publisher:
     name: "HACS (Harder Arithmetic Cohomology System)"
   year: 2026
