@@ -1,0 +1,309 @@
+2026-11-06 12:22:13 UTC RUN driver pid=3946854 binary_sha256=1d4f5a29e98c71f4 queued=s1:62,s2:65 caps: cell 12.0 GB, summed 20.0 GB; MemAvailable >= 16.0 GB + prediction
+2026-11-06 12:22:13 UTC CELL start s1/N1_n2 pid=3946864 attempt=1 pred_wall_s=0 pred_rss_gb=0.03
+2026-11-06 12:22:15 UTC CELL end s1/N1_n2 status=done rc=0 wall_s=2 peak_rss_gb=0.00 eff=[EFFECTIVE campaign arm=hecke_structure cells=1 ran=1 resumed=0 rejected=0 refused=0 pending=0 final=1 failed=0 outside=0 under=0 ed1_mismatch=0]
+2026-11-06 12:22:15 UTC CELL start s1/N1_n4 pid=3946904 attempt=1 pred_wall_s=0 pred_rss_gb=0.03
+2026-11-06 12:22:17 UTC CELL end s1/N1_n4 status=done rc=0 wall_s=2 peak_rss_gb=0.00 eff=[EFFECTIVE campaign arm=hecke_structure cells=1 ran=1 resumed=0 rejected=0 refused=0 pending=0 final=1 failed=0 outside=0 under=0 ed1_mismatch=0]
+2026-11-06 12:22:17 UTC CELL start s1/N1_n12 pid=3946951 attempt=1 pred_wall_s=0 pred_rss_gb=0.03
+2026-11-06 12:22:19 UTC CELL end s1/N1_n12 status=done rc=0 wall_s=2 peak_rss_gb=0.00 eff=[EFFECTIVE campaign arm=hecke_structure cells=1 ran=1 resumed=0 rejected=0 refused=0 pending=0 final=1 failed=0 outside=0 under=0 ed1_mismatch=0]
+2026-11-06 12:22:19 UTC CELL start s1/N2_n4 pid=3947004 attempt=1 pred_wall_s=0 pred_rss_gb=0.03
+2026-11-06 12:22:21 UTC CELL end s1/N2_n4 status=done rc=0 wall_s=2 peak_rss_gb=0.00 eff=[EFFECTIVE campaign arm=hecke_structure cells=2 ran=2 resumed=0 rejected=0 refused=0 pending=1 final=1 failed=0 outside=0 under=0 ed1_mismatch=0]
+2026-11-06 12:22:21 UTC CELL start s1/N11_n0 pid=3947199 attempt=1 pred_wall_s=0 pred_rss_gb=0.03
+2026-11-06 12:22:23 UTC CELL end s1/N11_n0 status=done rc=0 wall_s=2 peak_rss_gb=0.00 eff=[EFFECTIVE campaign arm=hecke_structure cells=2 ran=2 resumed=0 rejected=0 refused=0 pending=1 final=1 failed=0 outside=0 under=0 ed1_mismatch=0]
+2026-11-06 12:22:23 UTC CELL start s1/N29_n0 pid=3947267 attempt=1 pred_wall_s=0 pred_rss_gb=0.03
+2026-11-06 12:22:25 UTC CELL end s1/N29_n0 status=done rc=0 wall_s=2 peak_rss_gb=0.00 eff=[EFFECTIVE campaign arm=hecke_structure cells=2 ran=2 resumed=0 rejected=0 refused=0 pending=1 final=1 failed=0 outside=0 under=0 ed1_mismatch=0]
+2026-11-06 12:22:25 UTC CELL start s1/N1_n10 pid=3947396 attempt=1 pred_wall_s=0 pred_rss_gb=0.04
+2026-11-06 12:22:27 UTC CELL end s1/N1_n10 status=done rc=0 wall_s=2 peak_rss_gb=0.00 eff=[EFFECTIVE campaign arm=hecke_structure cells=1 ran=1 resumed=0 rejected=0 refused=0 pending=0 final=1 failed=0 outside=0 under=0 ed1_mismatch=0]
+2026-11-06 12:22:27 UTC CELL start s1/N1_n24 pid=3947451 attempt=1 pred_wall_s=0 pred_rss_gb=0.03
+2026-11-06 12:22:29 UTC CELL end s1/N1_n24 status=done rc=0 wall_s=2 peak_rss_gb=0.00 eff=[EFFECTIVE campaign arm=hecke_structure cells=1 ran=1 resumed=0 rejected=0 refused=0 pending=0 final=1 failed=0 outside=0 under=0 ed1_mismatch=0]
+2026-11-06 12:22:29 UTC CELL start s1/N41_n0 pid=3947611 attempt=1 pred_wall_s=0 pred_rss_gb=0.03
+2026-11-06 12:22:31 UTC CELL end s1/N41_n0 status=done rc=0 wall_s=2 peak_rss_gb=0.00 eff=[EFFECTIVE campaign arm=hecke_structure cells=2 ran=2 resumed=0 rejected=0 refused=0 pending=1 final=1 failed=0 outside=0 under=0 ed1_mismatch=0]
+2026-11-06 12:22:31 UTC CELL start s1/N2_n8 pid=3947694 attempt=1 pred_wall_s=0 pred_rss_gb=0.03
+2026-11-06 12:22:33 UTC CELL end s1/N2_n8 status=done rc=0 wall_s=2 peak_rss_gb=0.00 eff=[EFFECTIVE campaign arm=hecke_structure cells=2 ran=2 resumed=0 rejected=0 refused=0 pending=1 final=1 failed=0 outside=0 under=0 ed1_mismatch=0]
+2026-11-06 12:22:33 UTC CELL start s1/N3_n8 pid=3947808 attempt=1 pred_wall_s=0 pred_rss_gb=0.03
+2026-11-06 12:22:35 UTC CELL end s1/N3_n8 status=done rc=0 wall_s=2 peak_rss_gb=0.00 eff=[EFFECTIVE campaign arm=hecke_structure cells=2 ran=2 resumed=0 rejected=0 refused=0 pending=1 final=1 failed=0 outside=0 under=0 ed1_mismatch=0]
+2026-11-06 12:22:35 UTC CELL start s1/N8_n4 pid=3947935 attempt=1 pred_wall_s=0 pred_rss_gb=0.03
+2026-11-06 12:22:37 UTC CELL end s1/N8_n4 status=done rc=0 wall_s=2 peak_rss_gb=0.00 eff=[EFFECTIVE campaign arm=hecke_structure cells=2 ran=2 resumed=0 rejected=0 refused=0 pending=1 final=1 failed=0 outside=0 under=0 ed1_mismatch=0]
+2026-11-06 12:22:37 UTC CELL start s1/N22_n0 pid=3948128 attempt=1 pred_wall_s=0 pred_rss_gb=0.03
+2026-11-06 12:22:39 UTC CELL end s1/N22_n0 status=done rc=0 wall_s=2 peak_rss_gb=0.00 eff=[EFFECTIVE campaign arm=hecke_structure cells=2 ran=2 resumed=0 rejected=0 refused=0 pending=1 final=1 failed=0 outside=0 under=0 ed1_mismatch=0]
+2026-11-06 12:22:39 UTC CELL start s1/N43_n0 pid=3948212 attempt=1 pred_wall_s=0 pred_rss_gb=0.03
+2026-11-06 12:22:41 UTC CELL end s1/N43_n0 status=done rc=0 wall_s=2 peak_rss_gb=0.00 eff=[EFFECTIVE campaign arm=hecke_structure cells=2 ran=2 resumed=0 rejected=0 refused=0 pending=1 final=1 failed=0 outside=0 under=0 ed1_mismatch=0]
+2026-11-06 12:22:41 UTC CELL start s1/N55_n0 pid=3948291 attempt=1 pred_wall_s=0 pred_rss_gb=0.04
+2026-11-06 12:22:43 UTC CELL end s1/N55_n0 status=done rc=0 wall_s=2 peak_rss_gb=0.00 eff=[EFFECTIVE campaign arm=hecke_structure cells=2 ran=2 resumed=0 rejected=0 refused=0 pending=1 final=1 failed=0 outside=0 under=0 ed1_mismatch=0]
+2026-11-06 12:22:43 UTC CELL start s1/N67_n0 pid=3948383 attempt=1 pred_wall_s=0 pred_rss_gb=0.03
+2026-11-06 12:22:45 UTC CELL end s1/N67_n0 status=done rc=0 wall_s=2 peak_rss_gb=0.00 eff=[EFFECTIVE campaign arm=hecke_structure cells=2 ran=2 resumed=0 rejected=0 refused=0 pending=1 final=1 failed=0 outside=0 under=0 ed1_mismatch=0]
+2026-11-06 12:22:45 UTC CELL start s1/N1_n18 pid=3948554 attempt=1 pred_wall_s=0 pred_rss_gb=0.04
+2026-11-06 12:22:47 UTC CELL end s1/N1_n18 status=done rc=0 wall_s=2 peak_rss_gb=0.00 eff=[EFFECTIVE campaign arm=hecke_structure cells=1 ran=1 resumed=0 rejected=0 refused=0 pending=0 final=1 failed=0 outside=0 under=0 ed1_mismatch=0]
+2026-11-06 12:22:47 UTC CELL start s1/N2_n10 pid=3948642 attempt=1 pred_wall_s=0 pred_rss_gb=0.05
+2026-11-06 12:22:49 UTC CELL end s1/N2_n10 status=done rc=0 wall_s=2 peak_rss_gb=0.00 eff=[EFFECTIVE campaign arm=hecke_structure cells=2 ran=2 resumed=0 rejected=0 refused=0 pending=1 final=1 failed=0 outside=0 under=0 ed1_mismatch=0]
+2026-11-06 12:22:49 UTC CELL start s1/N33_n0 pid=3948742 attempt=1 pred_wall_s=0 pred_rss_gb=0.04
+2026-11-06 12:22:51 UTC CELL end s1/N33_n0 status=done rc=0 wall_s=2 peak_rss_gb=0.00 eff=[EFFECTIVE campaign arm=hecke_structure cells=2 ran=2 resumed=0 rejected=0 refused=0 pending=1 final=1 failed=0 outside=0 under=0 ed1_mismatch=0]
+2026-11-06 12:22:51 UTC CELL start s1/N77_n0 pid=3948831 attempt=1 pred_wall_s=0 pred_rss_gb=0.04
+2026-11-06 12:22:53 UTC CELL end s1/N77_n0 status=done rc=0 wall_s=2 peak_rss_gb=0.00 eff=[EFFECTIVE campaign arm=hecke_structure cells=2 ran=2 resumed=0 rejected=0 refused=0 pending=1 final=1 failed=0 outside=0 under=0 ed1_mismatch=0]
+2026-11-06 12:22:53 UTC CELL start s1/N27_n2 pid=3948947 attempt=1 pred_wall_s=1 pred_rss_gb=0.03
+2026-11-06 12:22:55 UTC CELL end s1/N27_n2 status=done rc=0 wall_s=2 peak_rss_gb=0.00 eff=[EFFECTIVE campaign arm=hecke_structure cells=2 ran=2 resumed=0 rejected=0 refused=0 pending=1 final=1 failed=0 outside=0 under=0 ed1_mismatch=0]
+2026-11-06 12:22:55 UTC CELL start s1/N3_n10 pid=3949088 attempt=1 pred_wall_s=1 pred_rss_gb=0.04
+2026-11-06 12:22:57 UTC CELL end s1/N3_n10 status=done rc=0 wall_s=2 peak_rss_gb=0.00 eff=[EFFECTIVE campaign arm=hecke_structure cells=2 ran=2 resumed=0 rejected=0 refused=0 pending=1 final=1 failed=0 outside=0 under=0 ed1_mismatch=0]
+2026-11-06 12:22:57 UTC CELL start s1/N1_n38 pid=3949198 attempt=1 pred_wall_s=1 pred_rss_gb=0.05
+2026-11-06 12:22:59 UTC CELL end s1/N1_n38 status=done rc=0 wall_s=2 peak_rss_gb=0.00 eff=[EFFECTIVE campaign arm=hecke_structure cells=1 ran=1 resumed=0 rejected=0 refused=0 pending=0 final=1 failed=0 outside=0 under=0 ed1_mismatch=0]
+2026-11-06 12:22:59 UTC CELL start s1/N16_n4 pid=3949314 attempt=1 pred_wall_s=1 pred_rss_gb=0.03
+2026-11-06 12:23:01 UTC CELL end s1/N16_n4 status=done rc=0 wall_s=2 peak_rss_gb=0.00 eff=[EFFECTIVE campaign arm=hecke_structure cells=2 ran=2 resumed=0 rejected=0 refused=0 pending=1 final=1 failed=0 outside=0 under=0 ed1_mismatch=0]
+2026-11-06 12:23:01 UTC CELL start s1/N1_n44 pid=3949446 attempt=1 pred_wall_s=1 pred_rss_gb=0.06
+2026-11-06 12:23:03 UTC CELL end s1/N1_n44 status=done rc=0 wall_s=2 peak_rss_gb=0.00 eff=[EFFECTIVE campaign arm=hecke_structure cells=1 ran=1 resumed=0 rejected=0 refused=0 pending=0 final=1 failed=0 outside=0 under=0 ed1_mismatch=0]
+2026-11-06 12:23:03 UTC CELL start s1/N101_n0 pid=3949587 attempt=1 pred_wall_s=1 pred_rss_gb=0.04
+2026-11-06 12:23:05 UTC CELL end s1/N101_n0 status=done rc=0 wall_s=2 peak_rss_gb=0.00 eff=[EFFECTIVE campaign arm=hecke_structure cells=2 ran=2 resumed=0 rejected=0 refused=0 pending=1 final=1 failed=0 outside=0 under=0 ed1_mismatch=0]
+2026-11-06 12:23:05 UTC CELL start s1/N5_n8 pid=3949982 attempt=1 pred_wall_s=1 pred_rss_gb=0.06
+2026-11-06 12:23:07 UTC CELL start s2/N1_n6 pid=3950390 attempt=1 pred_wall_s=0 pred_rss_gb=0.03
+2026-11-06 12:23:09 UTC CELL end s1/N5_n8 status=done rc=0 wall_s=4 peak_rss_gb=0.05 eff=[EFFECTIVE campaign arm=hecke_structure cells=2 ran=2 resumed=0 rejected=0 refused=0 pending=1 final=1 failed=0 outside=0 under=0 ed1_mismatch=0]
+2026-11-06 12:23:09 UTC CELL end s2/N1_n6 status=done rc=0 wall_s=2 peak_rss_gb=0.00 eff=[EFFECTIVE campaign arm=hecke_structure cells=1 ran=1 resumed=0 rejected=0 refused=0 pending=0 final=1 failed=0 outside=0 under=0 ed1_mismatch=0]
+2026-11-06 12:23:09 UTC CELL start s1/N1_n36 pid=3950531 attempt=1 pred_wall_s=1 pred_rss_gb=0.06
+2026-11-06 12:23:11 UTC CELL end s1/N1_n36 status=done rc=0 wall_s=2 peak_rss_gb=0.00 eff=[EFFECTIVE campaign arm=hecke_structure cells=1 ran=1 resumed=0 rejected=0 refused=0 pending=1 final=0 failed=0 outside=0 under=0 ed1_mismatch=0]
+2026-11-06 12:23:11 UTC CELL start s1/N125_n0 pid=3950616 attempt=1 pred_wall_s=1 pred_rss_gb=0.05
+2026-11-06 12:23:13 UTC CELL end s1/N125_n0 status=done rc=0 wall_s=2 peak_rss_gb=0.00 eff=[EFFECTIVE campaign arm=hecke_structure cells=2 ran=2 resumed=0 rejected=0 refused=0 pending=1 final=1 failed=0 outside=0 under=0 ed1_mismatch=0]
+2026-11-06 12:23:13 UTC CELL start s1/N1_n48 pid=3950777 attempt=1 pred_wall_s=1 pred_rss_gb=0.07
+2026-11-06 12:23:15 UTC CELL end s1/N1_n48 status=done rc=0 wall_s=2 peak_rss_gb=0.00 eff=[EFFECTIVE campaign arm=hecke_structure cells=1 ran=1 resumed=0 rejected=0 refused=0 pending=0 final=1 failed=0 outside=0 under=0 ed1_mismatch=0]
+2026-11-06 12:23:15 UTC CELL start s1/N113_n0 pid=3950915 attempt=1 pred_wall_s=1 pred_rss_gb=0.05
+2026-11-06 12:23:17 UTC CELL end s1/N113_n0 status=done rc=0 wall_s=2 peak_rss_gb=0.00 eff=[EFFECTIVE campaign arm=hecke_structure cells=2 ran=2 resumed=0 rejected=0 refused=0 pending=1 final=1 failed=0 outside=0 under=0 ed1_mismatch=0]
+2026-11-06 12:23:17 UTC CELL start s1/N127_n0 pid=3951106 attempt=1 pred_wall_s=1 pred_rss_gb=0.06
+2026-11-06 12:23:19 UTC CELL end s1/N127_n0 status=done rc=0 wall_s=2 peak_rss_gb=0.00 eff=[EFFECTIVE campaign arm=hecke_structure cells=2 ran=2 resumed=0 rejected=0 refused=0 pending=1 final=1 failed=0 outside=0 under=0 ed1_mismatch=0]
+2026-11-06 12:23:19 UTC CELL start s1/N143_n0 pid=3951267 attempt=1 pred_wall_s=2 pred_rss_gb=0.05
+2026-11-06 12:23:21 UTC CELL end s1/N143_n0 status=done rc=0 wall_s=2 peak_rss_gb=0.00 eff=[EFFECTIVE campaign arm=hecke_structure cells=2 ran=2 resumed=0 rejected=0 refused=0 pending=1 final=1 failed=0 outside=0 under=0 ed1_mismatch=0]
+2026-11-06 12:23:21 UTC CELL start s1/N27_n4 pid=3951442 attempt=1 pred_wall_s=2 pred_rss_gb=0.04
+2026-11-06 12:23:23 UTC CELL end s1/N27_n4 status=done rc=0 wall_s=2 peak_rss_gb=0.00 eff=[EFFECTIVE campaign arm=hecke_structure cells=2 ran=2 resumed=0 rejected=0 refused=0 pending=1 final=1 failed=0 outside=0 under=0 ed1_mismatch=0]
+2026-11-06 12:23:23 UTC CELL start s1/N79_n0 pid=3951705 attempt=1 pred_wall_s=2 pred_rss_gb=0.17
+2026-11-06 12:23:25 UTC CELL end s1/N79_n0 status=done rc=0 wall_s=2 peak_rss_gb=0.00 eff=[EFFECTIVE campaign arm=hecke_structure cells=2 ran=2 resumed=0 rejected=0 refused=0 pending=1 final=1 failed=0 outside=0 under=0 ed1_mismatch=0]
+2026-11-06 12:23:25 UTC CELL start s1/N8_n10 pid=3951813 attempt=1 pred_wall_s=2 pred_rss_gb=0.08
+2026-11-06 12:23:27 UTC CELL start s2/N1_n8 pid=3952082 attempt=1 pred_wall_s=0 pred_rss_gb=0.03
+2026-11-06 12:23:29 UTC CELL end s1/N8_n10 status=done rc=0 wall_s=4 peak_rss_gb=0.03 eff=[EFFECTIVE campaign arm=hecke_structure cells=2 ran=2 resumed=0 rejected=0 refused=0 pending=2 final=0 failed=0 outside=0 under=0 ed1_mismatch=0]
+2026-11-06 12:23:29 UTC CELL end s2/N1_n8 status=done rc=0 wall_s=2 peak_rss_gb=0.00 eff=[EFFECTIVE campaign arm=hecke_structure cells=1 ran=1 resumed=0 rejected=0 refused=0 pending=0 final=1 failed=0 outside=0 under=0 ed1_mismatch=0]
+2026-11-06 12:23:29 UTC CELL start s1/N1_n60 pid=3952154 attempt=1 pred_wall_s=2 pred_rss_gb=0.11
+2026-11-06 12:23:31 UTC CELL start s2/N1_n16 pid=3952355 attempt=1 pred_wall_s=0 pred_rss_gb=0.03
+2026-11-06 12:23:33 UTC CELL end s1/N1_n60 status=done rc=0 wall_s=4 peak_rss_gb=0.04 eff=[EFFECTIVE campaign arm=hecke_structure cells=1 ran=1 resumed=0 rejected=0 refused=0 pending=0 final=1 failed=0 outside=0 under=0 ed1_mismatch=0]
+2026-11-06 12:23:33 UTC CELL end s2/N1_n16 status=done rc=0 wall_s=2 peak_rss_gb=0.00 eff=[EFFECTIVE campaign arm=hecke_structure cells=1 ran=1 resumed=0 rejected=0 refused=0 pending=0 final=1 failed=0 outside=0 under=0 ed1_mismatch=0]
+2026-11-06 12:23:33 UTC CELL start s1/N1_n54 pid=3952541 attempt=1 pred_wall_s=2 pred_rss_gb=0.10
+2026-11-06 12:23:35 UTC CELL end s1/N1_n54 status=done rc=0 wall_s=2 peak_rss_gb=0.00 eff=[EFFECTIVE campaign arm=hecke_structure cells=1 ran=1 resumed=0 rejected=0 refused=0 pending=0 final=1 failed=0 outside=0 under=0 ed1_mismatch=0]
+2026-11-06 12:23:35 UTC CELL start s1/N7_n8 pid=3952751 attempt=1 pred_wall_s=3 pred_rss_gb=0.18
+2026-11-06 12:23:37 UTC CELL start s2/N7_n4 pid=3952837 attempt=1 pred_wall_s=0 pred_rss_gb=0.03
+2026-11-06 12:23:39 UTC CELL end s1/N7_n8 status=done rc=0 wall_s=4 peak_rss_gb=0.15 eff=[EFFECTIVE campaign arm=hecke_structure cells=2 ran=2 resumed=0 rejected=0 refused=0 pending=1 final=1 failed=0 outside=0 under=0 ed1_mismatch=0]
+2026-11-06 12:23:39 UTC CELL end s2/N7_n4 status=done rc=0 wall_s=2 peak_rss_gb=0.00 eff=[EFFECTIVE campaign arm=hecke_structure cells=2 ran=2 resumed=0 rejected=0 refused=0 pending=1 final=1 failed=0 outside=0 under=0 ed1_mismatch=0]
+2026-11-06 12:23:39 UTC CELL start s1/N1_n62 pid=3953126 attempt=1 pred_wall_s=3 pred_rss_gb=0.10
+2026-11-06 12:23:41 UTC CELL start s2/N23_n0 pid=3953443 attempt=1 pred_wall_s=0 pred_rss_gb=0.03
+2026-11-06 12:23:43 UTC CELL end s1/N1_n62 status=done rc=0 wall_s=4 peak_rss_gb=0.04 eff=[EFFECTIVE campaign arm=hecke_structure cells=1 ran=1 resumed=0 rejected=0 refused=0 pending=0 final=1 failed=0 outside=0 under=0 ed1_mismatch=0]
+2026-11-06 12:23:43 UTC CELL end s2/N23_n0 status=done rc=0 wall_s=2 peak_rss_gb=0.00 eff=[EFFECTIVE campaign arm=hecke_structure cells=2 ran=2 resumed=0 rejected=0 refused=0 pending=1 final=1 failed=0 outside=0 under=0 ed1_mismatch=0]
+2026-11-06 12:23:43 UTC CELL start s1/N1_n58 pid=3953560 attempt=1 pred_wall_s=3 pred_rss_gb=0.13
+2026-11-06 12:23:45 UTC CELL start s2/N31_n0 pid=3953857 attempt=1 pred_wall_s=0 pred_rss_gb=0.03
+2026-11-06 12:23:47 UTC CELL end s1/N1_n58 status=done rc=0 wall_s=4 peak_rss_gb=0.05 eff=[EFFECTIVE campaign arm=hecke_structure cells=1 ran=1 resumed=0 rejected=0 refused=0 pending=0 final=1 failed=0 outside=0 under=0 ed1_mismatch=0]
+2026-11-06 12:23:47 UTC CELL end s2/N31_n0 status=done rc=0 wall_s=2 peak_rss_gb=0.00 eff=[EFFECTIVE campaign arm=hecke_structure cells=2 ran=2 resumed=0 rejected=0 refused=0 pending=1 final=1 failed=0 outside=0 under=0 ed1_mismatch=0]
+2026-11-06 12:23:47 UTC CELL start s1/N1_n42 pid=3953984 attempt=1 pred_wall_s=4 pred_rss_gb=0.16
+2026-11-06 12:23:49 UTC CELL start s2/N1_n22 pid=3954142 attempt=1 pred_wall_s=0 pred_rss_gb=0.03
+2026-11-06 12:23:51 UTC CELL end s2/N1_n22 status=done rc=0 wall_s=2 peak_rss_gb=0.00 eff=[EFFECTIVE campaign arm=hecke_structure cells=1 ran=1 resumed=0 rejected=0 refused=0 pending=0 final=1 failed=0 outside=0 under=0 ed1_mismatch=0]
+2026-11-06 12:23:51 UTC CELL start s2/N3_n4 pid=3954219 attempt=1 pred_wall_s=0 pred_rss_gb=0.03
+2026-11-06 12:23:53 UTC CELL end s1/N1_n42 status=done rc=0 wall_s=6 peak_rss_gb=0.11 eff=[EFFECTIVE campaign arm=hecke_structure cells=1 ran=1 resumed=0 rejected=0 refused=0 pending=0 final=1 failed=0 outside=0 under=0 ed1_mismatch=0]
+2026-11-06 12:23:53 UTC CELL end s2/N3_n4 status=done rc=0 wall_s=2 peak_rss_gb=0.00 eff=[EFFECTIVE campaign arm=hecke_structure cells=2 ran=2 resumed=0 rejected=0 refused=0 pending=1 final=1 failed=0 outside=0 under=0 ed1_mismatch=0]
+2026-11-06 12:23:53 UTC CELL start s1/N1_n66 pid=3954348 attempt=1 pred_wall_s=4 pred_rss_gb=0.15
+2026-11-06 12:23:55 UTC CELL start s2/N5_n4 pid=3954657 attempt=1 pred_wall_s=0 pred_rss_gb=0.03
+2026-11-06 12:23:57 UTC CELL end s2/N5_n4 status=done rc=0 wall_s=2 peak_rss_gb=0.00 eff=[EFFECTIVE campaign arm=hecke_structure cells=2 ran=2 resumed=0 rejected=0 refused=0 pending=1 final=1 failed=0 outside=0 under=0 ed1_mismatch=0]
+2026-11-06 12:23:57 UTC CELL start s2/N47_n0 pid=3954775 attempt=1 pred_wall_s=0 pred_rss_gb=0.03
+2026-11-06 12:23:59 UTC CELL end s1/N1_n66 status=done rc=0 wall_s=6 peak_rss_gb=0.07 eff=[EFFECTIVE campaign arm=hecke_structure cells=1 ran=1 resumed=0 rejected=0 refused=0 pending=0 final=1 failed=0 outside=0 under=0 ed1_mismatch=0]
+2026-11-06 12:23:59 UTC CELL end s2/N47_n0 status=done rc=0 wall_s=2 peak_rss_gb=0.00 eff=[EFFECTIVE campaign arm=hecke_structure cells=2 ran=2 resumed=0 rejected=0 refused=0 pending=1 final=1 failed=0 outside=0 under=0 ed1_mismatch=0]
+2026-11-06 12:23:59 UTC CELL start s1/N181_n0 pid=3954913 attempt=1 pred_wall_s=5 pred_rss_gb=0.17
+2026-11-06 12:24:01 UTC CELL start s2/N2_n6 pid=3955042 attempt=1 pred_wall_s=0 pred_rss_gb=0.03
+2026-11-06 12:24:03 UTC CELL end s2/N2_n6 status=done rc=0 wall_s=2 peak_rss_gb=0.00 eff=[EFFECTIVE campaign arm=hecke_structure cells=2 ran=2 resumed=0 rejected=0 refused=0 pending=1 final=1 failed=0 outside=0 under=0 ed1_mismatch=0]
+2026-11-06 12:24:03 UTC CELL start s2/N3_n6 pid=3955237 attempt=1 pred_wall_s=0 pred_rss_gb=0.03
+2026-11-06 12:24:05 UTC CELL end s1/N181_n0 status=done rc=0 wall_s=6 peak_rss_gb=0.10 eff=[EFFECTIVE campaign arm=hecke_structure cells=2 ran=2 resumed=0 rejected=0 refused=0 pending=1 final=1 failed=0 outside=0 under=0 ed1_mismatch=0]
+2026-11-06 12:24:05 UTC CELL end s2/N3_n6 status=done rc=0 wall_s=2 peak_rss_gb=0.00 eff=[EFFECTIVE campaign arm=hecke_structure cells=2 ran=2 resumed=0 rejected=0 refused=0 pending=1 final=1 failed=0 outside=0 under=0 ed1_mismatch=0]
+2026-11-06 12:24:05 UTC CELL start s1/N191_n0 pid=3955440 attempt=1 pred_wall_s=6 pred_rss_gb=0.10
+2026-11-06 12:24:07 UTC CELL start s2/N5_n6 pid=3955639 attempt=1 pred_wall_s=0 pred_rss_gb=0.03
+2026-11-06 12:24:09 UTC CELL end s2/N5_n6 status=done rc=0 wall_s=2 peak_rss_gb=0.00 eff=[EFFECTIVE campaign arm=hecke_structure cells=2 ran=2 resumed=0 rejected=0 refused=0 pending=1 final=1 failed=0 outside=0 under=0 ed1_mismatch=0]
+2026-11-06 12:24:09 UTC CELL start s2/N16_n2 pid=3955790 attempt=1 pred_wall_s=0 pred_rss_gb=0.03
+2026-11-06 12:24:11 UTC CELL end s1/N191_n0 status=done rc=0 wall_s=6 peak_rss_gb=0.10 eff=[EFFECTIVE campaign arm=hecke_structure cells=2 ran=2 resumed=0 rejected=0 refused=0 pending=1 final=1 failed=0 outside=0 under=0 ed1_mismatch=0]
+2026-11-06 12:24:11 UTC CELL end s2/N16_n2 status=done rc=0 wall_s=2 peak_rss_gb=0.00 eff=[EFFECTIVE campaign arm=hecke_structure cells=2 ran=2 resumed=0 rejected=0 refused=0 pending=1 final=1 failed=0 outside=0 under=0 ed1_mismatch=0]
+2026-11-06 12:24:11 UTC CELL start s1/N1_n52 pid=3955890 attempt=1 pred_wall_s=8 pred_rss_gb=0.24
+2026-11-06 12:24:13 UTC CELL start s2/N32_n0 pid=3956062 attempt=1 pred_wall_s=0 pred_rss_gb=0.04
+2026-11-06 12:24:15 UTC CELL end s2/N32_n0 status=done rc=0 wall_s=2 peak_rss_gb=0.00 eff=[EFFECTIVE campaign arm=hecke_structure cells=2 ran=2 resumed=0 rejected=0 refused=0 pending=1 final=1 failed=0 outside=0 under=0 ed1_mismatch=0]
+2026-11-06 12:24:15 UTC CELL start s2/N53_n0 pid=3956141 attempt=1 pred_wall_s=0 pred_rss_gb=0.03
+2026-11-06 12:24:17 UTC CELL end s2/N53_n0 status=done rc=0 wall_s=2 peak_rss_gb=0.00 eff=[EFFECTIVE campaign arm=hecke_structure cells=2 ran=2 resumed=0 rejected=0 refused=0 pending=1 final=1 failed=0 outside=0 under=0 ed1_mismatch=0]
+2026-11-06 12:24:17 UTC CELL start s2/N61_n0 pid=3956231 attempt=1 pred_wall_s=0 pred_rss_gb=0.03
+2026-11-06 12:24:19 UTC CELL end s2/N61_n0 status=done rc=0 wall_s=2 peak_rss_gb=0.00 eff=[EFFECTIVE campaign arm=hecke_structure cells=2 ran=2 resumed=0 rejected=0 refused=0 pending=1 final=1 failed=0 outside=0 under=0 ed1_mismatch=0]
+2026-11-06 12:24:19 UTC CELL start s2/N1_n20 pid=3956343 attempt=1 pred_wall_s=0 pred_rss_gb=0.04
+2026-11-06 12:24:21 UTC CELL end s1/N1_n52 status=done rc=0 wall_s=10 peak_rss_gb=0.17 eff=[EFFECTIVE campaign arm=hecke_structure cells=1 ran=1 resumed=0 rejected=0 refused=0 pending=0 final=1 failed=0 outside=0 under=0 ed1_mismatch=0]
+2026-11-06 12:24:21 UTC CELL end s2/N1_n20 status=done rc=0 wall_s=2 peak_rss_gb=0.00 eff=[EFFECTIVE campaign arm=hecke_structure cells=1 ran=1 resumed=0 rejected=0 refused=0 pending=0 final=1 failed=0 outside=0 under=0 ed1_mismatch=0]
+2026-11-06 12:24:21 UTC CELL start s1/N7_n12 pid=3956422 attempt=1 pred_wall_s=12 pred_rss_gb=0.51
+2026-11-06 12:24:23 UTC CELL start s2/N2_n12 pid=3956563 attempt=1 pred_wall_s=0 pred_rss_gb=0.03
+2026-11-06 12:24:25 UTC CELL end s2/N2_n12 status=done rc=0 wall_s=2 peak_rss_gb=0.00 eff=[EFFECTIVE campaign arm=hecke_structure cells=2 ran=2 resumed=0 rejected=0 refused=0 pending=1 final=1 failed=0 outside=0 under=0 ed1_mismatch=0]
+2026-11-06 12:24:25 UTC CELL start s2/N38_n0 pid=3956717 attempt=1 pred_wall_s=0 pred_rss_gb=0.04
+2026-11-06 12:24:27 UTC CELL end s2/N38_n0 status=done rc=0 wall_s=2 peak_rss_gb=0.00 eff=[EFFECTIVE campaign arm=hecke_structure cells=2 ran=2 resumed=0 rejected=0 refused=0 pending=1 final=1 failed=0 outside=0 under=0 ed1_mismatch=0]
+2026-11-06 12:24:27 UTC CELL start s2/N1_n40 pid=3956805 attempt=1 pred_wall_s=1 pred_rss_gb=0.05
+2026-11-06 12:24:29 UTC CELL end s2/N1_n40 status=done rc=0 wall_s=2 peak_rss_gb=0.00 eff=[EFFECTIVE campaign arm=hecke_structure cells=1 ran=1 resumed=0 rejected=0 refused=0 pending=0 final=1 failed=0 outside=0 under=0 ed1_mismatch=0]
+2026-11-06 12:24:29 UTC CELL start s2/N71_n0 pid=3956921 attempt=1 pred_wall_s=1 pred_rss_gb=0.05
+2026-11-06 12:24:31 UTC CELL end s2/N71_n0 status=done rc=0 wall_s=2 peak_rss_gb=0.00 eff=[EFFECTIVE campaign arm=hecke_structure cells=2 ran=2 resumed=0 rejected=0 refused=0 pending=1 final=1 failed=0 outside=0 under=0 ed1_mismatch=0]
+2026-11-06 12:24:31 UTC CELL start s2/N7_n6 pid=3957040 attempt=1 pred_wall_s=1 pred_rss_gb=0.07
+2026-11-06 12:24:33 UTC CELL end s1/N7_n12 status=done rc=0 wall_s=12 peak_rss_gb=0.51 eff=[EFFECTIVE campaign arm=hecke_structure cells=2 ran=2 resumed=0 rejected=0 refused=0 pending=2 final=0 failed=0 outside=0 under=0 ed1_mismatch=0]
+2026-11-06 12:24:33 UTC CELL end s2/N7_n6 status=done rc=0 wall_s=2 peak_rss_gb=0.00 eff=[EFFECTIVE campaign arm=hecke_structure cells=2 ran=2 resumed=0 rejected=0 refused=0 pending=1 final=1 failed=0 outside=0 under=0 ed1_mismatch=0]
+2026-11-06 12:24:33 UTC CELL start s1/N1_n82 pid=3957307 attempt=1 pred_wall_s=12 pred_rss_gb=0.15
+2026-11-06 12:24:35 UTC CELL start s2/N64_n0 pid=3957474 attempt=1 pred_wall_s=1 pred_rss_gb=0.05
+2026-11-06 12:24:37 UTC CELL end s2/N64_n0 status=done rc=0 wall_s=2 peak_rss_gb=0.00 eff=[EFFECTIVE campaign arm=hecke_structure cells=2 ran=2 resumed=0 rejected=0 refused=0 pending=1 final=1 failed=0 outside=0 under=0 ed1_mismatch=0]
+2026-11-06 12:24:37 UTC CELL start s2/N1_n30 pid=3957767 attempt=1 pred_wall_s=1 pred_rss_gb=0.05
+2026-11-06 12:24:39 UTC CELL end s2/N1_n30 status=done rc=0 wall_s=2 peak_rss_gb=0.00 eff=[EFFECTIVE campaign arm=hecke_structure cells=1 ran=1 resumed=0 rejected=0 refused=0 pending=0 final=1 failed=0 outside=0 under=0 ed1_mismatch=0]
+2026-11-06 12:24:39 UTC CELL start s2/N59_n0 pid=3958010 attempt=1 pred_wall_s=1 pred_rss_gb=0.10
+2026-11-06 12:24:41 UTC CELL end s2/N59_n0 status=done rc=0 wall_s=2 peak_rss_gb=0.00 eff=[EFFECTIVE campaign arm=hecke_structure cells=2 ran=2 resumed=0 rejected=0 refused=0 pending=1 final=1 failed=0 outside=0 under=0 ed1_mismatch=0]
+2026-11-06 12:24:41 UTC CELL start s2/N103_n0 pid=3958180 attempt=1 pred_wall_s=1 pred_rss_gb=0.04
+2026-11-06 12:24:43 UTC CELL end s2/N103_n0 status=done rc=0 wall_s=2 peak_rss_gb=0.00 eff=[EFFECTIVE campaign arm=hecke_structure cells=2 ran=2 resumed=0 rejected=0 refused=0 pending=1 final=1 failed=0 outside=0 under=0 ed1_mismatch=0]
+2026-11-06 12:24:43 UTC CELL start s2/N1_n28 pid=3958323 attempt=1 pred_wall_s=1 pred_rss_gb=0.06
+2026-11-06 12:24:45 UTC CELL end s1/N1_n82 status=done rc=0 wall_s=12 peak_rss_gb=0.07 eff=[EFFECTIVE campaign arm=hecke_structure cells=1 ran=1 resumed=0 rejected=0 refused=0 pending=0 final=1 failed=0 outside=0 under=0 ed1_mismatch=0]
+2026-11-06 12:24:45 UTC CELL end s2/N1_n28 status=done rc=0 wall_s=2 peak_rss_gb=0.00 eff=[EFFECTIVE campaign arm=hecke_structure cells=1 ran=1 resumed=0 rejected=0 refused=0 pending=0 final=1 failed=0 outside=0 under=0 ed1_mismatch=0]
+2026-11-06 12:24:45 UTC CELL start s1/N251_n0 pid=3958399 attempt=1 pred_wall_s=17 pred_rss_gb=0.17
+2026-11-06 12:24:47 UTC CELL start s2/N1_n34 pid=3958539 attempt=1 pred_wall_s=1 pred_rss_gb=0.06
+2026-11-06 12:24:49 UTC CELL end s2/N1_n34 status=done rc=0 wall_s=2 peak_rss_gb=0.00 eff=[EFFECTIVE campaign arm=hecke_structure cells=1 ran=1 resumed=0 rejected=0 refused=0 pending=0 final=1 failed=0 outside=0 under=0 ed1_mismatch=0]
+2026-11-06 12:24:49 UTC CELL start s2/N5_n10 pid=3958648 attempt=1 pred_wall_s=1 pred_rss_gb=0.06
+2026-11-06 12:24:51 UTC CELL end s2/N5_n10 status=done rc=0 wall_s=2 peak_rss_gb=0.00 eff=[EFFECTIVE campaign arm=hecke_structure cells=2 ran=2 resumed=0 rejected=0 refused=0 pending=1 final=1 failed=0 outside=0 under=0 ed1_mismatch=0]
+2026-11-06 12:24:51 UTC CELL start s2/N3_n12 pid=3958944 attempt=1 pred_wall_s=1 pred_rss_gb=0.07
+2026-11-06 12:24:53 UTC CELL end s2/N3_n12 status=done rc=0 wall_s=2 peak_rss_gb=0.00 eff=[EFFECTIVE campaign arm=hecke_structure cells=2 ran=2 resumed=0 rejected=0 refused=0 pending=1 final=1 failed=0 outside=0 under=0 ed1_mismatch=0]
+2026-11-06 12:24:53 UTC CELL start s2/N1_n46 pid=3959098 attempt=1 pred_wall_s=1 pred_rss_gb=0.07
+2026-11-06 12:24:56 UTC CELL end s2/N1_n46 status=done rc=0 wall_s=2 peak_rss_gb=0.00 eff=[EFFECTIVE campaign arm=hecke_structure cells=1 ran=1 resumed=0 rejected=0 refused=0 pending=0 final=1 failed=0 outside=0 under=0 ed1_mismatch=0]
+2026-11-06 12:24:56 UTC CELL start s2/N131_n0 pid=3959288 attempt=1 pred_wall_s=1 pred_rss_gb=0.06
+2026-11-06 12:24:58 UTC CELL end s2/N131_n0 status=done rc=0 wall_s=2 peak_rss_gb=0.00 eff=[EFFECTIVE campaign arm=hecke_structure cells=2 ran=2 resumed=0 rejected=0 refused=0 pending=1 final=1 failed=0 outside=0 under=0 ed1_mismatch=0]
+2026-11-06 12:24:58 UTC CELL start s2/N1_n14 pid=3959430 attempt=1 pred_wall_s=2 pred_rss_gb=0.07
+2026-11-06 12:25:00 UTC CELL end s2/N1_n14 status=done rc=0 wall_s=2 peak_rss_gb=0.00 eff=[EFFECTIVE campaign arm=hecke_structure cells=1 ran=1 resumed=0 rejected=0 refused=0 pending=0 final=1 failed=0 outside=0 under=0 ed1_mismatch=0]
+2026-11-06 12:25:00 UTC CELL start s2/N137_n0 pid=3959483 attempt=1 pred_wall_s=2 pred_rss_gb=0.11
+2026-11-06 12:25:04 UTC CELL end s1/N251_n0 status=done rc=0 wall_s=18 peak_rss_gb=0.16 eff=[EFFECTIVE campaign arm=hecke_structure cells=2 ran=2 resumed=0 rejected=0 refused=0 pending=1 final=1 failed=0 outside=0 under=0 ed1_mismatch=0]
+2026-11-06 12:25:04 UTC CELL end s2/N137_n0 status=done rc=0 wall_s=4 peak_rss_gb=0.06 eff=[EFFECTIVE campaign arm=hecke_structure cells=2 ran=2 resumed=0 rejected=0 refused=0 pending=1 final=1 failed=0 outside=0 under=0 ed1_mismatch=0]
+2026-11-06 12:25:04 UTC CELL start s1/N1_n102 pid=3959633 attempt=1 pred_wall_s=25 pred_rss_gb=0.15
+2026-11-06 12:25:06 UTC CELL start s2/N1_n32 pid=3959747 attempt=1 pred_wall_s=2 pred_rss_gb=0.11
+2026-11-06 12:25:10 UTC CELL end s2/N1_n32 status=done rc=0 wall_s=4 peak_rss_gb=0.07 eff=[EFFECTIVE campaign arm=hecke_structure cells=1 ran=1 resumed=0 rejected=0 refused=0 pending=1 final=0 failed=0 outside=0 under=0 ed1_mismatch=0]
+2026-11-06 12:25:10 UTC CELL start s2/N149_n0 pid=3960085 attempt=1 pred_wall_s=2 pred_rss_gb=0.07
+2026-11-06 12:25:14 UTC CELL end s2/N149_n0 status=done rc=0 wall_s=4 peak_rss_gb=0.06 eff=[EFFECTIVE campaign arm=hecke_structure cells=2 ran=2 resumed=0 rejected=0 refused=0 pending=1 final=1 failed=0 outside=0 under=0 ed1_mismatch=0]
+2026-11-06 12:25:14 UTC CELL start s2/N1_n56 pid=3960495 attempt=1 pred_wall_s=2 pred_rss_gb=0.10
+2026-11-06 12:25:16 UTC CELL end s2/N1_n56 status=done rc=0 wall_s=2 peak_rss_gb=0.00 eff=[EFFECTIVE campaign arm=hecke_structure cells=1 ran=1 resumed=0 rejected=0 refused=0 pending=0 final=1 failed=0 outside=0 under=0 ed1_mismatch=0]
+2026-11-06 12:25:16 UTC CELL start s2/N151_n0 pid=3960809 attempt=1 pred_wall_s=3 pred_rss_gb=0.10
+2026-11-06 12:25:20 UTC CELL end s2/N151_n0 status=done rc=0 wall_s=4 peak_rss_gb=0.07 eff=[EFFECTIVE campaign arm=hecke_structure cells=2 ran=2 resumed=0 rejected=0 refused=0 pending=1 final=1 failed=0 outside=0 under=0 ed1_mismatch=0]
+2026-11-06 12:25:20 UTC CELL start s2/N7_n10 pid=3961187 attempt=1 pred_wall_s=3 pred_rss_gb=0.10
+2026-11-06 12:25:24 UTC CELL end s2/N7_n10 status=done rc=0 wall_s=4 peak_rss_gb=0.09 eff=[EFFECTIVE campaign arm=hecke_structure cells=2 ran=2 resumed=0 rejected=0 refused=0 pending=1 final=1 failed=0 outside=0 under=0 ed1_mismatch=0]
+2026-11-06 12:25:24 UTC CELL start s2/N157_n0 pid=3962111 attempt=1 pred_wall_s=3 pred_rss_gb=0.12
+2026-11-06 12:25:28 UTC CELL end s2/N157_n0 status=done rc=0 wall_s=4 peak_rss_gb=0.06 eff=[EFFECTIVE campaign arm=hecke_structure cells=2 ran=2 resumed=0 rejected=0 refused=0 pending=1 final=1 failed=0 outside=0 under=0 ed1_mismatch=0]
+2026-11-06 12:25:28 UTC CELL start s2/N173_n0 pid=3962570 attempt=1 pred_wall_s=4 pred_rss_gb=0.09
+2026-11-06 12:25:32 UTC CELL end s1/N1_n102 status=done rc=0 wall_s=28 peak_rss_gb=0.07 eff=[EFFECTIVE campaign arm=hecke_structure cells=1 ran=1 resumed=0 rejected=0 refused=0 pending=0 final=1 failed=0 outside=0 under=0 ed1_mismatch=0]
+2026-11-06 12:25:32 UTC CELL start s1/N1_n94 pid=3962786 attempt=1 pred_wall_s=35 pred_rss_gb=0.39
+2026-11-06 12:25:34 UTC CELL end s2/N173_n0 status=done rc=0 wall_s=6 peak_rss_gb=0.08 eff=[EFFECTIVE campaign arm=hecke_structure cells=2 ran=2 resumed=0 rejected=0 refused=0 pending=2 final=0 failed=0 outside=0 under=0 ed1_mismatch=0]
+2026-11-06 12:25:34 UTC CELL start s2/N1_n26 pid=3962919 attempt=1 pred_wall_s=4 pred_rss_gb=0.13
+2026-11-06 12:25:38 UTC CELL end s2/N1_n26 status=done rc=0 wall_s=4 peak_rss_gb=0.10 eff=[EFFECTIVE campaign arm=hecke_structure cells=1 ran=1 resumed=0 rejected=0 refused=0 pending=0 final=1 failed=0 outside=0 under=0 ed1_mismatch=0]
+2026-11-06 12:25:38 UTC CELL start s2/N139_n0 pid=3963298 attempt=1 pred_wall_s=4 pred_rss_gb=0.31
+2026-11-06 12:25:44 UTC CELL end s2/N139_n0 status=done rc=0 wall_s=6 peak_rss_gb=0.21 eff=[EFFECTIVE campaign arm=hecke_structure cells=2 ran=2 resumed=0 rejected=0 refused=0 pending=1 final=1 failed=0 outside=0 under=0 ed1_mismatch=0]
+2026-11-06 12:25:44 UTC CELL start s2/N179_n0 pid=3963838 attempt=1 pred_wall_s=5 pred_rss_gb=0.11
+2026-11-06 12:25:50 UTC CELL end s2/N179_n0 status=done rc=0 wall_s=6 peak_rss_gb=0.10 eff=[EFFECTIVE campaign arm=hecke_structure cells=2 ran=2 resumed=0 rejected=0 refused=0 pending=1 final=1 failed=0 outside=0 under=0 ed1_mismatch=0]
+2026-11-06 12:25:50 UTC CELL start s2/N197_n0 pid=3964243 attempt=1 pred_wall_s=8 pred_rss_gb=0.17
+2026-11-06 12:25:58 UTC CELL end s2/N197_n0 status=done rc=0 wall_s=8 peak_rss_gb=0.14 eff=[EFFECTIVE campaign arm=hecke_structure cells=2 ran=2 resumed=0 rejected=0 refused=0 pending=2 final=0 failed=0 outside=0 under=0 ed1_mismatch=0]
+2026-11-06 12:25:58 UTC CELL start s2/N1_n50 pid=3964549 attempt=1 pred_wall_s=11 pred_rss_gb=0.31
+2026-11-06 12:26:08 UTC CELL end s1/N1_n94 status=done rc=0 wall_s=36 peak_rss_gb=0.29 eff=[EFFECTIVE campaign arm=hecke_structure cells=1 ran=1 resumed=0 rejected=0 refused=0 pending=0 final=1 failed=0 outside=0 under=0 ed1_mismatch=0]
+2026-11-06 12:26:08 UTC CELL start s1/N5_n12 pid=3964900 attempt=1 pred_wall_s=37 pred_rss_gb=2.05
+2026-11-06 12:26:12 UTC CELL end s2/N1_n50 status=done rc=0 wall_s=14 peak_rss_gb=0.25 eff=[EFFECTIVE campaign arm=hecke_structure cells=1 ran=1 resumed=0 rejected=0 refused=0 pending=0 final=1 failed=0 outside=0 under=0 ed1_mismatch=0]
+2026-11-06 12:26:12 UTC CELL start s2/N1_n88 pid=3965088 attempt=1 pred_wall_s=12 pred_rss_gb=0.15
+2026-11-06 12:26:26 UTC CELL end s2/N1_n88 status=done rc=0 wall_s=14 peak_rss_gb=0.06 eff=[EFFECTIVE campaign arm=hecke_structure cells=1 ran=1 resumed=0 rejected=0 refused=0 pending=0 final=1 failed=0 outside=0 under=0 ed1_mismatch=0]
+2026-11-06 12:26:26 UTC CELL start s2/N1_n100 pid=3965932 attempt=1 pred_wall_s=22 pred_rss_gb=0.14
+2026-11-06 12:26:40 UTC CELL end s1/N5_n12 status=done rc=0 wall_s=32 peak_rss_gb=2.05 eff=[EFFECTIVE campaign arm=hecke_structure cells=2 ran=2 resumed=0 rejected=0 refused=0 pending=1 final=1 failed=0 outside=0 under=0 ed1_mismatch=0]
+2026-11-06 12:26:40 UTC CELL start s1/N1_n138 pid=3967165 attempt=1 pred_wall_s=63 pred_rss_gb=0.49
+2026-11-06 12:26:50 UTC CELL end s2/N1_n100 status=done rc=0 wall_s=24 peak_rss_gb=0.07 eff=[EFFECTIVE campaign arm=hecke_structure cells=1 ran=1 resumed=0 rejected=0 refused=0 pending=0 final=1 failed=0 outside=0 under=0 ed1_mismatch=0]
+2026-11-06 12:26:50 UTC CELL start s2/N89_n0 pid=3968097 attempt=1 pred_wall_s=27 pred_rss_gb=2.23
+2026-11-06 12:27:22 UTC CELL end s2/N89_n0 status=done rc=0 wall_s=32 peak_rss_gb=1.76 eff=[EFFECTIVE campaign arm=hecke_structure cells=2 ran=2 resumed=0 rejected=0 refused=0 pending=1 final=1 failed=0 outside=0 under=0 ed1_mismatch=0]
+2026-11-06 12:27:22 UTC CELL start s2/N253_n0 pid=3970433 attempt=1 pred_wall_s=27 pred_rss_gb=0.11
+2026-11-06 12:29:26 UTC CELL end s1/N1_n138 status=done rc=0 wall_s=166 peak_rss_gb=0.30 eff=[EFFECTIVE campaign arm=hecke_structure cells=1 ran=1 resumed=0 rejected=0 refused=0 pending=0 final=1 failed=0 outside=0 under=0 ed1_mismatch=0]
+2026-11-06 12:29:26 UTC CELL start s1/N83_n0 pid=3974798 attempt=1 pred_wall_s=80 pred_rss_gb=3.12
+2026-11-06 12:29:28 UTC CELL end s2/N253_n0 status=done rc=0 wall_s=126 peak_rss_gb=2.39 eff=[EFFECTIVE campaign arm=hecke_structure cells=2 ran=2 resumed=0 rejected=0 refused=0 pending=1 final=1 failed=0 outside=0 under=0 ed1_mismatch=0]
+2026-11-06 12:29:28 UTC CELL start s2/N1_n108 pid=3974873 attempt=1 pred_wall_s=35 pred_rss_gb=0.26
+2026-11-06 12:30:08 UTC CELL end s2/N1_n108 status=done rc=0 wall_s=40 peak_rss_gb=0.14 eff=[EFFECTIVE campaign arm=hecke_structure cells=1 ran=1 resumed=0 rejected=0 refused=0 pending=0 final=1 failed=0 outside=0 under=0 ed1_mismatch=0]
+2026-11-06 12:30:08 UTC CELL start s2/N1_n122 pid=3976532 attempt=1 pred_wall_s=71 pred_rss_gb=0.20
+2026-11-06 12:30:36 UTC CELL end s1/N83_n0 status=done rc=0 wall_s=70 peak_rss_gb=3.12 eff=[EFFECTIVE campaign arm=hecke_structure cells=2 ran=2 resumed=0 rejected=0 refused=0 pending=1 final=1 failed=0 outside=0 under=0 ed1_mismatch=0]
+2026-11-06 12:30:36 UTC CELL start s1/N341_n0 pid=3977946 attempt=1 pred_wall_s=113 pred_rss_gb=0.11
+2026-11-06 12:31:24 UTC CELL end s2/N1_n122 status=done rc=0 wall_s=76 peak_rss_gb=0.12 eff=[EFFECTIVE campaign arm=hecke_structure cells=1 ran=1 resumed=0 rejected=0 refused=0 pending=0 final=1 failed=0 outside=0 under=0 ed1_mismatch=0]
+2026-11-06 12:31:24 UTC CELL start s2/N1_n124 pid=3980197 attempt=1 pred_wall_s=76 pred_rss_gb=0.15
+2026-11-06 12:32:52 UTC CELL end s2/N1_n124 status=done rc=0 wall_s=88 peak_rss_gb=0.08 eff=[EFFECTIVE campaign arm=hecke_structure cells=1 ran=1 resumed=0 rejected=0 refused=0 pending=0 final=1 failed=0 outside=0 under=0 ed1_mismatch=0]
+2026-11-06 12:32:52 UTC CELL start s2/N1_n128 pid=3985312 attempt=1 pred_wall_s=85 pred_rss_gb=0.24
+2026-11-06 12:34:24 UTC CELL end s2/N1_n128 status=done rc=0 wall_s=92 peak_rss_gb=0.15 eff=[EFFECTIVE campaign arm=hecke_structure cells=1 ran=1 resumed=0 rejected=0 refused=0 pending=0 final=1 failed=0 outside=0 under=0 ed1_mismatch=0]
+2026-11-06 12:34:24 UTC CELL start s2/N167_n0 pid=3989414 attempt=1 pred_wall_s=113 pred_rss_gb=4.48
+2026-11-06 12:36:10 UTC CELL end s2/N167_n0 status=done rc=0 wall_s=106 peak_rss_gb=4.21 eff=[EFFECTIVE campaign arm=hecke_structure cells=2 ran=2 resumed=0 rejected=0 refused=0 pending=2 final=0 failed=0 outside=0 under=0 ed1_mismatch=0]
+2026-11-06 12:36:10 UTC CELL start s2/N209_n0 pid=3991970 attempt=1 pred_wall_s=160 pred_rss_gb=8.70
+2026-11-06 12:49:39 UTC WATCHDOG s2/N209_n0 RSS 12.01 GB (summed 17.57 GB; caps 12.00 per cell, 20.00 summed): terminating pid 3991970 (recorded); the lane goes on
+2026-11-06 12:49:59 UTC CELL end s2/N209_n0 status=killed_rss rc=None wall_s=829 peak_rss_gb=12.01 eff=[-]
+2026-11-06 12:49:59 UTC CELL start s2/N401_n0 pid=4058750 attempt=1 pred_wall_s=171 pred_rss_gb=0.11
+2026-11-06 12:52:27 UTC CELL end s2/N401_n0 status=done rc=0 wall_s=148 peak_rss_gb=0.65 eff=[EFFECTIVE campaign arm=hecke_structure cells=2 ran=2 resumed=0 rejected=0 refused=0 pending=1 final=1 failed=0 outside=0 under=0 ed1_mismatch=0]
+2026-11-06 12:52:27 UTC CELL start s2/N431_n0 pid=4066392 attempt=1 pred_wall_s=265 pred_rss_gb=0.11
+2026-11-06 13:01:16 UTC CELL end s2/N431_n0 status=done rc=0 wall_s=529 peak_rss_gb=8.68 eff=[EFFECTIVE campaign arm=hecke_structure cells=2 ran=2 resumed=0 rejected=0 refused=0 pending=1 final=1 failed=0 outside=0 under=0 ed1_mismatch=0]
+2026-11-06 13:01:16 UTC CELL start s2/N187_n0 pid=4095791 attempt=1 pred_wall_s=283 pred_rss_gb=5.76
+2026-11-06 13:07:06 UTC CELL end s2/N187_n0 status=done rc=0 wall_s=350 peak_rss_gb=5.76 eff=[EFFECTIVE campaign arm=hecke_structure cells=2 ran=2 resumed=0 rejected=0 refused=0 pending=1 final=1 failed=0 outside=0 under=0 ed1_mismatch=0]
+2026-11-06 13:07:06 UTC CELL start s2/N503_n0 pid=4170826 attempt=1 pred_wall_s=600 pred_rss_gb=0.11
+2026-11-06 13:12:25 UTC WATCHDOG s1/N341_n0 RSS 12.01 GB (summed 14.26 GB; caps 12.00 per cell, 20.00 summed): terminating pid 3977946 (recorded); the lane goes on
+2026-11-06 13:12:45 UTC CELL end s1/N341_n0 status=killed_rss rc=None wall_s=2529 peak_rss_gb=12.01 eff=[-]
+2026-11-06 13:12:45 UTC CELL start s1/N13_n12 pid=184557 attempt=1 pred_wall_s=138 pred_rss_gb=5.11
+2026-11-06 13:15:15 UTC CELL end s1/N13_n12 status=done rc=0 wall_s=150 peak_rss_gb=5.11 eff=[EFFECTIVE campaign arm=hecke_structure cells=2 ran=2 resumed=0 rejected=0 refused=0 pending=1 final=1 failed=0 outside=0 under=0 ed1_mismatch=0]
+2026-11-06 13:15:15 UTC CELL start s1/N199_n0 pid=207543 attempt=1 pred_wall_s=162 pred_rss_gb=5.72
+2026-11-06 13:18:13 UTC CELL end s1/N199_n0 status=done rc=0 wall_s=178 peak_rss_gb=5.72 eff=[EFFECTIVE campaign arm=hecke_structure cells=2 ran=2 resumed=0 rejected=0 refused=0 pending=1 final=1 failed=0 outside=0 under=0 ed1_mismatch=0]
+2026-11-06 13:18:13 UTC CELL start s1/N107_n0 pid=216269 attempt=1 pred_wall_s=180 pred_rss_gb=8.87
+2026-11-06 13:22:13 UTC CELL end s1/N107_n0 status=done rc=0 wall_s=240 peak_rss_gb=7.56 eff=[EFFECTIVE campaign arm=hecke_structure cells=2 ran=2 resumed=0 rejected=0 refused=0 pending=1 final=1 failed=0 outside=0 under=0 ed1_mismatch=0]
+2026-11-06 13:22:13 UTC CELL start s1/N491_n0 pid=227129 attempt=1 pred_wall_s=527 pred_rss_gb=0.11
+2026-11-06 13:28:16 UTC CELL end s1/N491_n0 status=done rc=0 wall_s=362 peak_rss_gb=0.82 eff=[EFFECTIVE campaign arm=hecke_structure cells=2 ran=2 resumed=0 rejected=0 refused=0 pending=1 final=1 failed=0 outside=0 under=0 ed1_mismatch=0]
+2026-11-06 13:28:16 UTC CELL start s1/N601_n0 pid=244254 attempt=1 pred_wall_s=1403 pred_rss_gb=0.94
+2026-11-06 13:33:20 UTC WATCHDOG s2/N503_n0 RSS 12.05 GB (summed 12.25 GB; caps 12.00 per cell, 20.00 summed): terminating pid 4170826 (recorded); the lane goes on
+2026-11-06 13:33:40 UTC CELL end s2/N503_n0 status=killed_rss rc=None wall_s=1594 peak_rss_gb=12.05 eff=[-]
+2026-11-06 13:33:40 UTC CELL start s2/N677_n0 pid=258585 attempt=1 pred_wall_s=2978 pred_rss_gb=0.11
+2026-11-06 13:40:46 UTC CELL end s1/N601_n0 status=done rc=0 wall_s=751 peak_rss_gb=0.87 eff=[EFFECTIVE campaign arm=hecke_structure cells=2 ran=2 resumed=0 rejected=0 refused=0 pending=1 final=1 failed=0 outside=0 under=0 ed1_mismatch=0]
+2026-11-06 13:40:46 UTC CELL start s1/N26_n12 pid=288451 attempt=1 pred_wall_s=1764 pred_rss_gb=8.00
+2026-11-06 13:52:17 UTC WATCHDOG s2/N677_n0 RSS 12.02 GB (summed 15.33 GB; caps 12.00 per cell, 20.00 summed): terminating pid 258585 (recorded); the lane goes on
+2026-11-06 13:52:37 UTC CELL end s2/N677_n0 status=killed_rss rc=None wall_s=1137 peak_rss_gb=12.02 eff=[-]
+2026-11-06 13:52:37 UTC CELL start s2/N701_n0 pid=537452 attempt=1 pred_wall_s=3638 pred_rss_gb=0.11
+2026-11-06 14:06:00 UTC WATCHDOG s1/N26_n12 RSS 10.91 GB (summed 20.01 GB; caps 12.00 per cell, 20.00 summed): terminating pid 288451 (recorded); the lane goes on
+2026-11-06 14:06:20 UTC CELL end s1/N26_n12 status=killed_rss rc=None wall_s=1534 peak_rss_gb=10.91 eff=[-]
+2026-11-06 14:06:20 UTC CELL start s1/N883_n0 pid=934453 attempt=1 pred_wall_s=13759 pred_rss_gb=0.11
+2026-11-06 14:07:36 UTC WATCHDOG s2/N701_n0 RSS 12.01 GB (summed 12.16 GB; caps 12.00 per cell, 20.00 summed): terminating pid 537452 (recorded); the lane goes on
+2026-11-06 14:07:56 UTC CELL end s2/N701_n0 status=killed_rss rc=None wall_s=919 peak_rss_gb=12.01 eff=[-]
+2026-11-06 14:07:56 UTC CELL start s2/N727_n0 pid=996220 attempt=1 pred_wall_s=4418 pred_rss_gb=0.11
+2026-11-06 14:44:48 UTC CELL end s2/N727_n0 status=done rc=0 wall_s=2212 peak_rss_gb=1.40 eff=[EFFECTIVE campaign arm=hecke_structure cells=2 ran=2 resumed=0 rejected=0 refused=0 pending=1 final=1 failed=0 outside=0 under=0 ed1_mismatch=0]
+2026-11-06 14:44:48 UTC CELL start s2/N751_n0 pid=1577961 attempt=1 pred_wall_s=5335 pred_rss_gb=0.11
+2026-11-06 14:47:23 UTC WATCHDOG s1/N883_n0 RSS 12.02 GB (summed 12.37 GB; caps 12.00 per cell, 20.00 summed): terminating pid 934453 (recorded); the lane goes on
+2026-11-06 14:47:43 UTC CELL end s1/N883_n0 status=killed_rss rc=None wall_s=2483 peak_rss_gb=12.02 eff=[-]
+2026-11-06 15:24:59 UTC CELL end s2/N751_n0 status=done rc=0 wall_s=2410 peak_rss_gb=1.51 eff=[EFFECTIVE campaign arm=hecke_structure cells=2 ran=2 resumed=0 rejected=0 refused=0 pending=1 final=1 failed=0 outside=0 under=0 ed1_mismatch=0]
+2026-11-06 15:25:01 UTC RUN summary done=120 killed_rss=7
+2026-11-06 19:36:14 UTC RUN driver pid=791276 binary_sha256=54ab8480772f2ab9 queued=s1:3,s2:4,s3:1,s4:14 caps: cell 12.0 GB, summed 20.0 GB, cell wall 12.0 h; MemAvailable >= 16.0 GB + prediction
+2026-11-06 19:36:14 UTC CELL start s1/N341_n0 pid=791691 attempt=2 pred_wall_s=113 pred_rss_gb=0.11
+2026-11-06 19:36:16 UTC CELL start s2/N209_n0 pid=792910 attempt=2 pred_wall_s=160 pred_rss_gb=8.70
+2026-11-06 19:37:02 UTC CELL end s2/N209_n0 status=done rc=0 wall_s=46 peak_rss_gb=0.14 eff=[EFFECTIVE campaign arm=hecke_structure cells=2 ran=2 resumed=0 rejected=0 refused=0 pending=1 final=1 failed=0 outside=0 under=0 ed1_mismatch=0]
+2026-11-06 19:37:02 UTC CELL start s2/N503_n0 pid=829169 attempt=2 pred_wall_s=600 pred_rss_gb=0.11
+2026-11-06 19:40:56 UTC CELL end s1/N341_n0 status=done rc=0 wall_s=282 peak_rss_gb=0.17 eff=[EFFECTIVE campaign arm=hecke_structure cells=2 ran=2 resumed=0 rejected=0 refused=0 pending=2 final=0 failed=0 outside=0 under=0 ed1_mismatch=0]
+2026-11-06 19:40:56 UTC CELL start s1/N26_n12 pid=853939 attempt=2 pred_wall_s=1764 pred_rss_gb=8.00
+2026-11-06 19:45:56 UTC CELL end s1/N26_n12 status=done rc=0 wall_s=300 peak_rss_gb=0.13 eff=[EFFECTIVE campaign arm=hecke_structure cells=2 ran=2 resumed=0 rejected=0 refused=0 pending=2 final=0 failed=0 outside=0 under=0 ed1_mismatch=0]
+2026-11-06 19:45:56 UTC CELL start s1/N883_n0 pid=875778 attempt=2 pred_wall_s=13759 pred_rss_gb=0.11
+2026-11-06 19:46:20 UTC CELL end s2/N503_n0 status=done rc=0 wall_s=559 peak_rss_gb=0.49 eff=[EFFECTIVE campaign arm=hecke_structure cells=2 ran=2 resumed=0 rejected=0 refused=0 pending=2 final=0 failed=0 outside=0 under=0 ed1_mismatch=0]
+2026-11-06 19:46:20 UTC CELL start s2/N677_n0 pid=876717 attempt=2 pred_wall_s=2978 pred_rss_gb=0.11
+2026-11-06 19:49:49 UTC CELL end s2/N677_n0 status=done rc=0 wall_s=208 peak_rss_gb=0.68 eff=[EFFECTIVE campaign arm=hecke_structure cells=2 ran=2 resumed=0 rejected=0 refused=0 pending=1 final=1 failed=0 outside=0 under=0 ed1_mismatch=0]
+2026-11-06 19:49:49 UTC CELL start s2/N701_n0 pid=888450 attempt=2 pred_wall_s=3638 pred_rss_gb=0.11
+2026-11-06 19:51:47 UTC CELL end s2/N701_n0 status=done rc=0 wall_s=118 peak_rss_gb=0.70 eff=[EFFECTIVE campaign arm=hecke_structure cells=2 ran=2 resumed=0 rejected=0 refused=0 pending=1 final=1 failed=0 outside=0 under=0 ed1_mismatch=0]
+2026-11-06 19:51:47 UTC CELL start s3/N2089_n0 pid=891530 attempt=1 pred_wall_s=2288151 pred_rss_gb=0.74
+2026-11-06 19:53:35 UTC CELL end s1/N883_n0 status=done rc=0 wall_s=458 peak_rss_gb=0.76 eff=[EFFECTIVE campaign arm=hecke_structure cells=2 ran=2 resumed=0 rejected=0 refused=0 pending=1 final=1 failed=0 outside=0 under=0 ed1_mismatch=0]
+2026-11-06 19:53:35 UTC CELL start s4/N1_n142 pid=902411 attempt=1 pred_wall_s=77 pred_rss_gb=0.49
+2026-11-06 19:54:37 UTC CELL end s4/N1_n142 status=done rc=0 wall_s=62 peak_rss_gb=0.10 eff=[EFFECTIVE campaign arm=hecke_structure cells=1 ran=1 resumed=0 rejected=0 refused=0 pending=0 final=1 failed=0 outside=0 under=0 ed1_mismatch=0]
+2026-11-06 19:54:37 UTC CELL start s4/N1_n150 pid=908375 attempt=1 pred_wall_s=84 pred_rss_gb=0.49
+2026-11-06 19:56:01 UTC CELL end s4/N1_n150 status=done rc=0 wall_s=84 peak_rss_gb=0.24 eff=[EFFECTIVE campaign arm=hecke_structure cells=1 ran=1 resumed=0 rejected=0 refused=0 pending=0 final=1 failed=0 outside=0 under=0 ed1_mismatch=0]
+2026-11-06 19:56:01 UTC CELL start s4/N1_n158 pid=953089 attempt=1 pred_wall_s=105 pred_rss_gb=0.49
+2026-11-06 19:58:03 UTC CELL end s4/N1_n158 status=done rc=0 wall_s=122 peak_rss_gb=0.15 eff=[EFFECTIVE campaign arm=hecke_structure cells=1 ran=1 resumed=0 rejected=0 refused=0 pending=0 final=1 failed=0 outside=0 under=0 ed1_mismatch=0]
+2026-11-06 19:58:03 UTC CELL start s4/N1_n166 pid=973671 attempt=1 pred_wall_s=130 pred_rss_gb=0.49
+2026-11-06 20:01:01 UTC CELL end s4/N1_n166 status=done rc=0 wall_s=178 peak_rss_gb=0.19 eff=[EFFECTIVE campaign arm=hecke_structure cells=1 ran=1 resumed=0 rejected=0 refused=0 pending=1 final=0 failed=0 outside=0 under=0 ed1_mismatch=0]
+2026-11-06 20:01:01 UTC CELL start s4/N1_n174 pid=994964 attempt=1 pred_wall_s=140 pred_rss_gb=0.49
+2026-11-06 20:04:26 UTC CELL end s4/N1_n174 status=done rc=0 wall_s=204 peak_rss_gb=0.19 eff=[EFFECTIVE campaign arm=hecke_structure cells=1 ran=1 resumed=0 rejected=0 refused=0 pending=0 final=1 failed=0 outside=0 under=0 ed1_mismatch=0]
+2026-11-06 20:04:26 UTC CELL start s4/N1_n188 pid=1010149 attempt=1 pred_wall_s=178 pred_rss_gb=0.49
+2026-11-06 20:09:40 UTC CELL end s4/N1_n188 status=done rc=0 wall_s=314 peak_rss_gb=0.27 eff=[EFFECTIVE campaign arm=hecke_structure cells=1 ran=1 resumed=0 rejected=0 refused=0 pending=0 final=1 failed=0 outside=0 under=0 ed1_mismatch=0]
+2026-11-06 20:09:40 UTC CELL start s4/N1_n198 pid=1046127 attempt=1 pred_wall_s=218 pred_rss_gb=0.49
+2026-11-06 20:17:26 UTC CELL end s4/N1_n198 status=done rc=0 wall_s=466 peak_rss_gb=0.21 eff=[EFFECTIVE campaign arm=hecke_structure cells=1 ran=1 resumed=0 rejected=0 refused=0 pending=1 final=0 failed=0 outside=0 under=0 ed1_mismatch=0]
+2026-11-06 20:17:26 UTC CELL start s4/N1_n210 pid=1079492 attempt=1 pred_wall_s=267 pred_rss_gb=0.49
+2026-11-06 20:29:23 UTC CELL end s4/N1_n210 status=done rc=0 wall_s=717 peak_rss_gb=0.17 eff=[EFFECTIVE campaign arm=hecke_structure cells=1 ran=1 resumed=0 rejected=0 refused=0 pending=1 final=0 failed=0 outside=0 under=0 ed1_mismatch=0]
+2026-11-06 20:29:23 UTC CELL start s4/N1_n216 pid=1128700 attempt=1 pred_wall_s=278 pred_rss_gb=0.49
+2026-11-06 20:43:34 UTC CELL end s4/N1_n216 status=done rc=0 wall_s=851 peak_rss_gb=0.42 eff=[EFFECTIVE campaign arm=hecke_structure cells=1 ran=1 resumed=0 rejected=0 refused=0 pending=1 final=0 failed=0 outside=0 under=0 ed1_mismatch=0]
+2026-11-06 20:43:34 UTC CELL start s4/N1_n226 pid=1194161 attempt=1 pred_wall_s=369 pred_rss_gb=0.49
+2026-11-06 21:09:22 UTC CELL end s4/N1_n226 status=done rc=0 wall_s=1548 peak_rss_gb=0.42 eff=[EFFECTIVE campaign arm=hecke_structure cells=1 ran=1 resumed=0 rejected=0 refused=0 pending=1 final=0 failed=0 outside=0 under=0 ed1_mismatch=0]
+2026-11-06 21:09:22 UTC CELL start s4/N1_n246 pid=1303202 attempt=1 pred_wall_s=461 pred_rss_gb=0.49
+2026-11-06 21:26:51 UTC CELL end s3/N2089_n0 status=failed rc=-15 wall_s=5704 peak_rss_gb=0.89 eff=[-]
+2026-11-06 21:51:43 UTC CELL end s4/N1_n246 status=done rc=0 wall_s=2541 peak_rss_gb=0.41 eff=[EFFECTIVE campaign arm=hecke_structure cells=1 ran=1 resumed=0 rejected=0 refused=0 pending=1 final=0 failed=0 outside=0 under=0 ed1_mismatch=0]
+2026-11-06 21:51:43 UTC CELL start s4/N1_n254 pid=1485712 attempt=1 pred_wall_s=531 pred_rss_gb=0.49
+2026-11-06 22:48:42 UTC CELL end s4/N1_n254 status=done rc=0 wall_s=3420 peak_rss_gb=0.37 eff=[EFFECTIVE campaign arm=hecke_structure cells=1 ran=1 resumed=0 rejected=0 refused=0 pending=1 final=0 failed=0 outside=0 under=0 ed1_mismatch=0]
+2026-11-06 22:48:42 UTC CELL start s4/N1_n256 pid=1774219 attempt=1 pred_wall_s=537 pred_rss_gb=0.49
+2026-11-06 23:50:16 UTC CELL end s4/N1_n256 status=done rc=0 wall_s=3694 peak_rss_gb=0.33 eff=[EFFECTIVE campaign arm=hecke_structure cells=1 ran=1 resumed=0 rejected=0 refused=0 pending=1 final=0 failed=0 outside=0 under=0 ed1_mismatch=0]
+2026-11-06 23:50:16 UTC CELL start s4/N1_n268 pid=2146243 attempt=1 pred_wall_s=629 pred_rss_gb=0.49
+2026-11-07 01:17:24 UTC CELL end s4/N1_n268 status=done rc=0 wall_s=5228 peak_rss_gb=0.36 eff=[EFFECTIVE campaign arm=hecke_structure cells=1 ran=1 resumed=0 rejected=0 refused=0 pending=1 final=0 failed=0 outside=0 under=0 ed1_mismatch=0]
+2026-11-07 01:17:26 UTC RUN summary done=141 failed=1

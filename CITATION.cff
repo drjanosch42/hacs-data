@@ -14,13 +14,13 @@ authors:
     affiliation: "Universität Paderborn"
 abstract: >-
   Census data computed with HACS (Harder Arithmetic Cohomology System): the congruence census, the integral census and
-  the integral Hecke structure data set HeckeZ (editions 1 and 2) for the cohomology of SL_2(Z) and of Gamma_0(N) with
+  the integral Hecke structure data set HeckeZ (editions 1, 2 and 3) for the cohomology of SL_2(Z) and of Gamma_0(N) with
   coefficients in the symmetric powers of the standard representation. The data sets are versioned by edition (EDITIONS.md); the edition
   shown in each table's header is the one to cite.
 license: CC-BY-4.0
 repository-code: "https://github.com/drjanosch42/hacs-data"
-version: "0.1.1"
-date-released: "2026-11-10"
+version: "0.2.0"
+date-released: "2026-11-11"
 doi: 10.5281/zenodo.24118877
 identifiers:
   - type: doi
@@ -50,7 +50,7 @@ preferred-citation:
       affiliation: "Universität Paderborn"
   repository-code: "https://github.com/drjanosch42/hacs-data"
   doi: 10.5281/zenodo.24118877
-  version: "0.1.1"
+  version: "0.2.0"
   publisher:
     name: "HACS (Harder Arithmetic Cohomology System)"
   year: 2026

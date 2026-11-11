@@ -11,6 +11,6 @@ SPDX-License-Identifier = "CC-BY-4.0"
 
 # Top-level files of this repository (README, citation metadata, edition ledger, checksums).
 [[annotations]]
-path = ["README.md", "EDITIONS.md", "CITATION.cff", "CHECKSUMS.sha256"]
+path = ["README.md", "EDITIONS.md", "CITATION.cff", "CHANGELOG.md", "CHECKSUMS.sha256"]
 SPDX-FileCopyrightText = "2024-2026 Fabian Januszewski"
 SPDX-License-Identifier = "CC-BY-4.0"

@@ -21,9 +21,11 @@ HACS code repository (a separate repository; not part of this one), Zenodo conce
 | `census/integral/edition1/` | Integral census: Hecke modules over Z of the free and torsion parts, descent cells (N, n) | edition 1 | signed 2026-11-03 |
 | `census/heckez/edition1/` | HeckeZ data set: structure of the Hecke ring over Z (components, maximal ideals, local rings, Eisenstein congruence module) for 141 cells | edition 1 | signed 2026-11-07 |
 | `census/heckez/edition2/` | HeckeZ data set, edition 2: the 85 level-N `full` records recomputed with U_p over Z (ell = 2, 3); the other 141 records are edition 1's | edition 2 | signed 2026-11-09 |
+| `census/heckez/edition3/` | HeckeZ data set, edition 3: the 85 level-N `full` records recomputed with the Eisenstein U_p systems over Z (204 final / 22 pending records, was 140 / 86); new column `U_p` in `components.tsv`; the other 141 records are edition 2's | edition 3 | signed 2026-11-11 |
 
 Per-edition status, sign-off dates and the checksum comparison against the editions' own manifests: `EDITIONS.md`.
-Schemas: `census/congruence/SCHEMA.md`, `census/integral/DATASET.md`, `census/heckez/DATASET.md` (+ `DATASET_v2.md` for edition 2).
+Schemas: `census/congruence/SCHEMA.md`, `census/integral/DATASET.md`, `census/heckez/DATASET.md` (+ `DATASET_v2.md` for edition 2, `DATASET_v3.md` for edition 3).
+Release history: `CHANGELOG.md`.
 
 **Not included** (not signed, or not yet decided): the section b2 and the section L23 (ell = 2, 3) of the congruence census 4.x, which are
 pre-release addenda; earlier census editions (3.x), which 4.0 supersedes; the census explorer (browser application; separate decision).
@@ -39,6 +41,7 @@ sha256sum -c CHECKSUMS.sha256                                   # every file of 
 (cd census/integral/edition1 && sha256sum -c MANIFEST.sha256)   # an edition's own manifest
 (cd census/heckez/edition1   && sha256sum -c MANIFEST.sha256)
 (cd census/heckez/edition2   && sha256sum -c MANIFEST.sha256)
+(cd census/heckez/edition3   && sha256sum -c MANIFEST.sha256)
 (cd census/congruence/4.0    && grep -E '^[0-9a-f]{64}  ' MANIFEST40.txt | awk '$2 !~ /b2/' | sha256sum -c)  # the 13 b2 files listed there are not shipped
 ```
 
